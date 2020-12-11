@@ -1,0 +1,38 @@
+############################################# Login #############################################
+############################################# Login #############################################
+localhost> man
+Please verify your identity(Enter)
+
+Please input passwd:
+localhost> man
+Please verify your identity(Enter)
+
+Please input passwd:
+
+Invalid password!
+Please verify your identity(Enter)
+Please input passwd:
+
+Invalid password!
+Please verify your identity(Enter)
+
+Please input passwd:
+
+Authentication failed!
+
+
+
+
+
+
+
+
+
+
+
+
+超时, # 不能找到
+超时, # 不能找到
+
+
+

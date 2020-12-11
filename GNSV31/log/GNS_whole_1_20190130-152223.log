@@ -1,0 +1,17 @@
+############################################# Login #############################################
+Last login: Wed Jan 30 15:14:51 2019 from 10.90.0.8
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+######################################## 4G Module Check ########################################
+lsusb | grep -c '2c7c'
+1
+[root@localhost ~]#
+9b3c Module PASS
+atget simcard
+
+SIM check Success
+
+[root@localhost ~]#
+4G Network FAIL
+4G Network FAIL

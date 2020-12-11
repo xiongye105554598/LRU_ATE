@@ -1,0 +1,201 @@
+Last login: Mon Dec 17 15:11:49 2018 from 10.255.250.10
+[root@feitian ~]# 
+[root@feitian ~]# 
+[root@feitian ~]# ps -A | grep -c kcpu
+0
+[root@feitian ~]# cd /sbin
+[root@feitian sbin]# ./run_kcpu.sh start 50
+Done!
+[root@feitian sbin]# cd /
+[root@feitian /]# vershow | grep Config | awk '{print $2}'
+/usr/sbin/vershow: line 43: docker: command not found
+/usr/sbin/vershow: line 49: docker: command not found
+/usr/sbin/vershow: line 52: docker: command not found
+version:7f-r14253-4
+[root@feitian /]# fpga_version&
+[1] 15219
+[root@feitian /]# FPGA version:V1.7
+
+[1]+  Done                    fpga_version
+[root@feitian /]# 
+[root@feitian /]# swv_read&
+[1] 15640
+[root@feitian /]# software version :REL-1.00B005_7F
+
+[1]+  Done                    swv_read
+[root@feitian /]# 
+[root@feitian /]# spn_read&
+[1] 16009
+[root@feitian /]# software part number:5010000002
+
+[1]+  Done                    spn_read
+[root@feitian /]# 
+[root@feitian /]# dpn_read&
+[1] 16866
+[root@feitian /]# PN_VERSION:9010100013
+
+[1]+  Done                    dpn_read
+[root@feitian /]# 
+[root@feitian /]# board_pn_read&
+[1] 17641
+[root@feitian /]# Board_Product_Number:3010100023
+
+[1]+  Done                    board_pn_read
+[root@feitian /]# 
+[root@feitian /]# mod_read&
+[1] 18021
+[root@feitian /]# Mod number:A
+
+[1]+  Done                    mod_read
+[root@feitian /]# 
+[root@feitian /]# uname -a&
+[1] 18607
+[root@feitian /]# Linux feitian 3.10.5-3.el6.x86_64 #1 SMP Tue Aug 20 14:10:49 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+[1]+  Done                    uname -a
+[root@feitian /]# 
+[root@feitian /]# dsn_read&
+[1] 19072
+[root@feitian /]# SN_VERSION:031702141001
+
+[1]+  Done                    dsn_read
+[root@feitian /]# 
+[root@feitian /]# board_sn_read&
+[1] 19436
+[root@feitian /]# Board_Serial_Number:FT0123456
+
+[1]+  Done                    board_sn_read
+[root@feitian /]# 
+[root@feitian /]# fpgapn_read&
+[1] 20257
+[root@feitian /]# fpga part number:5010000007
+
+[1]+  Done                    fpgapn_read
+[root@feitian /]# 
+[root@feitian /]# isopn_read&
+[1] 20716
+[root@feitian /]# iso part number:5010000013
+
+[1]+  Done                    isopn_read
+[root@feitian /]# 
+[root@feitian /]# vershow&
+[1] 21086
+[root@feitian /]# underlying version:r14253
+
+Config version:7f-r14253-4
+
+/usr/sbin/vershow: line 43: docker: command not found
+docker version:
+
+nginx version:
+
+/usr/sbin/vershow: line 49: docker: command not found
+nodejs version:
+
+/usr/sbin/vershow: line 52: docker: command not found
+mongodb version:
+
+[1]+  Done                    vershow
+[root@feitian /]# 
+[root@feitian /]# ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+eth0.10:1 Link encap:Ethernet  HWaddr 5C:E0:CA:3F:00:03  
+[root@feitian /]# sensors -u &
+[1] 22169
+[root@feitian /]# coretemp-isa-0000
+Adapter: ISA adapter
+Physical id 0:
+  temp1_input: 71.00
+  temp1_max: 87.00
+  temp1_crit: 105.00
+  temp1_crit_alarm: 0.00
+Core 0:
+  temp2_input: 71.00
+  temp2_max: 87.00
+  temp2_crit: 105.00
+  temp2_crit_alarm: 0.00
+Core 1:
+  temp3_input: 71.00
+  temp3_max: 87.00
+  temp3_crit: 105.00
+  temp3_crit_alarm: 0.00
+
+
+[1]+  Done                    sensors -u
+[root@feitian /]# 
+[root@feitian /]# service ntpd stop
+Shutting down ntpd: [60G[[0;31mFAILED[0;39m]
+[root@feitian /]# ntpdate 10.255.250.10 &
+[1] 23354
+[root@feitian /]# 17 Dec 15:19:46 ntpdate[23354]: adjust time server 10.255.250.10 offset -0.067101 sec
+date
+Mon Dec 17 15:20:01 CST 2018
+[1]+  Done                    ntpdate 10.255.250.10
+[root@feitian /]# iostat -m
+Linux 3.10.5-3.el6.x86_64 (feitian) 	12/17/2018 	_x86_64_	(4 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           2.48    0.00    1.56    0.03    0.00   95.94
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+sda               4.55         0.02         0.03        105        149
+sdb               0.09         0.00         0.00          2          0
+
+[root@feitian /]# free | grep Mem | awk '{print $2}'
+16439836
+[root@feitian /]# ping 10.255.250.10 -c5
+PING 10.255.250.10 (10.255.250.10) 56(84) bytes of data.
+64 bytes from 10.255.250.10: icmp_seq=1 ttl=64 time=1.26 ms
+64 bytes from 10.255.250.10: icmp_seq=2 ttl=64 time=0.802 ms
+64 bytes from 10.255.250.10: icmp_seq=3 ttl=64 time=0.577 ms
+64 bytes from 10.255.250.10: icmp_seq=4 ttl=64 time=0.441 ms
+64 bytes from 10.255.250.10: icmp_seq=5 ttl=64 time=0.504 ms
+
+--- 10.255.250.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4003ms
+rtt min/avg/max/mdev = 0.441/0.717/1.263/0.299 ms
+[root@feitian /]# iperf -c 10.255.250.10 -w1m -i1 -t30 | grep '0.0-3'
+
+
+[  3]  0.0-30.0 sec  3.19 GBytes   914 Mbits/sec
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# del_time
+[root@feitian /]# lspci
+00:00.0 Host bridge: Intel Corporation 3rd Gen Core processor DRAM Controller (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller (rev 04)
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+00:1a.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2 (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 1 (rev c4)
+00:1c.1 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 2 (rev c4)
+00:1d.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation QM77 Express Chipset LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 7 Series Chipset Family 6-port SATA Controller [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 7 Series/C210 Series Chipset Family SMBus Controller (rev 04)
+01:00.0 Communication controller: Xilinx Corporation Device 7011
+02:00.0 Ethernet controller: Intel Corporation I210 Gigabit Backplane Connection (rev 03)
+[root@feitian /]# fdisk -l | grep -c sda
+7
+[root@feitian /]# df | grep -c sda
+4
+[root@feitian /]# fdisk -l | grep sda
+Disk /dev/sda: 1024.2 GB, 1024209543168 bytes
+/dev/sda1   *           1         131     1048576   83  Linux
+/dev/sda2             131       26240   209715200   83  Linux
+/dev/sda3           26240       28850    20971520   83  Linux
+/dev/sda4           28850      124520   768468312    5  Extended
+/dev/sda5           28850       29112     2097152   82  Linux swap / Solaris
+/dev/sda6           29112      124520   766368768   83  Linux
+[root@feitian /]# fdisk -l | grep sdb
+Disk /dev/sdb: 992.2 GB, 992203333632 bytes
+/dev/sdb1               1      120628   968944378+  83  Linux
+[root@feitian /]# ps -A | grep -c dd
+1
+[root@feitian /]# dd bs=16M count=1024 if=/dev/zero of=test conv=fdatasync &
+[1] 28274
+[root@feitian /]# 

@@ -1,0 +1,1390 @@
+############################################# Login #############################################
+Last login: Mon Nov 28 05:06:52 2011 from 10.255.250.6
+[root@feitian ~]# 
+[root@feitian ~]# 
+[root@feitian ~]# 
+cd /root/software/gns_test/
+[root@feitian gns_test]# 
+chmod +x *
+[root@feitian gns_test]# 
+./install_sysstat.sh
+tar: sysstat-10.1.1/cifsiostat.c: time stamp 2012-07-25 03:48:20 is 20731140.712298753 s in the future
+tar: sysstat-10.1.1/FAQ: time stamp 2012-07-22 03:44:34 is 20471714.709562651 s in the future
+tar: sysstat-10.1.1/ioconf.h: time stamp 2012-07-25 03:48:19 is 20731139.70848912 s in the future
+tar: sysstat-10.1.1/nfsiostat.c: time stamp 2012-07-25 03:48:20 is 20731140.704233831 s in the future
+tar: sysstat-10.1.1/rd_stats.h: time stamp 2012-07-25 03:48:20 is 20731140.70292263 s in the future
+tar: sysstat-10.1.1/common.h: time stamp 2012-07-25 03:48:19 is 20731139.701445487 s in the future
+tar: sysstat-10.1.1/mpstat.h: time stamp 2012-07-25 03:48:19 is 20731139.700381316 s in the future
+tar: sysstat-10.1.1/rndr_stats.h: time stamp 2012-07-25 03:48:20 is 20731140.700157125 s in the future
+tar: sysstat-10.1.1/contrib/isag: time stamp 2012-07-25 04:01:53 is 20731953.697240344 s in the future
+tar: sysstat-10.1.1/format.c: time stamp 2012-07-25 03:48:19 is 20731139.696153962 s in the future
+tar: sysstat-10.1.1/sa.h: time stamp 2012-07-25 03:48:19 is 20731139.695382845 s in the future
+tar: sysstat-10.1.1/sa1.in: time stamp 2012-05-13 21:00:56 is 14485896.695212851 s in the future
+tar: sysstat-10.1.1/sadf.h: time stamp 2012-07-25 03:48:19 is 20731139.694903035 s in the future
+tar: sysstat-10.1.1/xml_stats.c: time stamp 2012-07-25 03:48:20 is 20731140.693181308 s in the future
+tar: sysstat-10.1.1/CHANGES: time stamp 2012-07-25 03:43:47 is 20730867.690761796 s in the future
+tar: sysstat-10.1.1/build/collect-all: time stamp 2012-05-11 03:49:47 is 14251227.690164164 s in the future
+tar: sysstat-10.1.1/build/stripping: time stamp 2012-01-02 21:46:19 is 3083819.688508786 s in the future
+tar: sysstat-10.1.1/build: time stamp 2012-05-11 03:49:47 is 14251227.687414513 s in the future
+tar: sysstat-10.1.1/iostat.h: time stamp 2012-07-25 03:48:19 is 20731139.68705085 s in the future
+tar: sysstat-10.1.1/iconfig: time stamp 2012-05-11 03:56:59 is 14251659.686786081 s in the future
+tar: sysstat-10.1.1/sadc.c: time stamp 2012-07-25 03:48:19 is 20731139.686505319 s in the future
+tar: sysstat-10.1.1/cifsiostat.h: time stamp 2012-07-25 03:48:20 is 20731140.686285249 s in the future
+tar: sysstat-10.1.1/cron: time stamp 2012-07-25 04:01:53 is 20731953.685677211 s in the future
+tar: sysstat-10.1.1/json_stats.h: time stamp 2012-07-25 03:48:20 is 20731140.685471249 s in the future
+tar: sysstat-10.1.1/sa_wrap.c: time stamp 2012-07-25 03:48:20 is 20731140.685186437 s in the future
+tar: sysstat-10.1.1/nls/uk.po: time stamp 2012-05-18 17:47:01 is 14906261.683345769 s in the future
+tar: sysstat-10.1.1/nls/da.po: time stamp 2012-05-18 16:12:01 is 14900561.681556436 s in the future
+tar: sysstat-10.1.1/nls/de.po: time stamp 2012-05-19 04:02:01 is 14943161.68075368 s in the future
+tar: sysstat-10.1.1/nls/ru.po: time stamp 2012-05-19 20:02:02 is 15000762.680418163 s in the future
+tar: sysstat-10.1.1/nls/nl.po: time stamp 2012-05-23 04:42:03 is 15291163.678842823 s in the future
+tar: sysstat-10.1.1/nls/eo.po: time stamp 2012-05-19 00:07:02 is 14929062.678061508 s in the future
+tar: sysstat-10.1.1/nls/sk.po: time stamp 2012-05-20 21:47:02 is 15093462.677289971 s in the future
+tar: sysstat-10.1.1/nls/zh_CN.po: time stamp 2012-03-14 18:17:03 is 9292063.676829717 s in the future
+tar: sysstat-10.1.1/nls/eu.po: time stamp 2012-05-19 03:02:01 is 14939561.676347673 s in the future
+tar: sysstat-10.1.1/nls/lv.po: time stamp 2012-05-23 20:27:02 is 15347862.67455352 s in the future
+tar: sysstat-10.1.1/nls/sr.po: time stamp 2012-05-25 05:02:09 is 15465169.673622466 s in the future
+tar: sysstat-10.1.1/nls/hr.po: time stamp 2012-05-26 05:32:21 is 15553381.673038802 s in the future
+tar: sysstat-10.1.1/nls/cs.po: time stamp 2011-12-01 16:57:03 is 301663.672713132 s in the future
+tar: sysstat-10.1.1/nls/vi.po: time stamp 2012-05-18 15:42:07 is 14898767.671919526 s in the future
+tar: sysstat-10.1.1/nls/fi.po: time stamp 2012-05-18 20:12:01 is 14914961.669273938 s in the future
+tar: sysstat-10.1.1/nls/sysstat.pot: time stamp 2012-07-25 03:50:52 is 20731292.66872757 s in the future
+tar: sysstat-10.1.1/nls/id.po: time stamp 2012-05-18 16:42:01 is 14902361.668090687 s in the future
+tar: sysstat-10.1.1/nls: time stamp 2012-05-26 05:32:23 is 15553383.667766833 s in the future
+tar: sysstat-10.1.1/json_stats.c: time stamp 2012-07-25 03:48:20 is 20731140.667141125 s in the future
+tar: sysstat-10.1.1/sysstat-10.1.1.lsm: time stamp 2012-07-25 03:57:45 is 20731705.666566192 s in the future
+tar: sysstat-10.1.1/configure: time stamp 2012-06-25 19:47:32 is 18196692.628222209 s in the future
+tar: sysstat-10.1.1/sysstat-10.1.1.spec: time stamp 2012-07-25 03:43:57 is 20730877.627540209 s in the future
+tar: sysstat-10.1.1/xml/sysstat.xsd: time stamp 2012-05-08 20:01:41 is 14050341.62669939 s in the future
+tar: sysstat-10.1.1/xml: time stamp 2012-05-08 20:01:41 is 14050341.626369669 s in the future
+tar: sysstat-10.1.1/common.c: time stamp 2012-07-25 03:48:19 is 20731139.625884412 s in the future
+tar: sysstat-10.1.1/Makefile.in: time stamp 2012-01-02 21:36:00 is 3083200.625282799 s in the future
+tar: sysstat-10.1.1/pidstat.h: time stamp 2012-07-25 03:48:19 is 20731139.624863891 s in the future
+tar: sysstat-10.1.1/rndr_stats.c: time stamp 2012-07-25 03:48:20 is 20731140.623054513 s in the future
+tar: sysstat-10.1.1/xml_stats.h: time stamp 2012-07-25 03:48:20 is 20731140.622583783 s in the future
+tar: sysstat-10.1.1/sadf.c: time stamp 2012-07-25 03:48:19 is 20731139.621079332 s in the future
+tar: sysstat-10.1.1/sa_common.c: time stamp 2012-07-25 03:48:19 is 20731139.619272119 s in the future
+tar: sysstat-10.1.1/rd_stats.c: time stamp 2012-07-25 03:48:20 is 20731140.61752448 s in the future
+tar: sysstat-10.1.1/nfsiostat.h: time stamp 2012-07-25 03:48:20 is 20731140.617083223 s in the future
+tar: sysstat-10.1.1/pr_stats.c: time stamp 2012-07-25 03:48:20 is 20731140.61527587 s in the future
+tar: sysstat-10.1.1/mpstat.c: time stamp 2012-07-25 03:48:19 is 20731139.614241381 s in the future
+tar: sysstat-10.1.1/sysstat.sysconfig.in: time stamp 2012-05-13 21:00:39 is 14485879.61363928 s in the future
+tar: sysstat-10.1.1/version.in: time stamp 2012-07-25 03:48:19 is 20731139.613222397 s in the future
+tar: sysstat-10.1.1/rd_sensors.h: time stamp 2012-07-25 03:48:20 is 20731140.61282954 s in the future
+tar: sysstat-10.1.1/pidstat.c: time stamp 2012-07-25 03:48:19 is 20731139.611729679 s in the future
+tar: sysstat-10.1.1/CREDITS: time stamp 2012-05-08 21:04:06 is 14054086.611273895 s in the future
+tar: sysstat-10.1.1/man/iostat.in: time stamp 2012-07-14 03:40:54 is 19780294.610833196 s in the future
+tar: sysstat-10.1.1/man/sadc.in: time stamp 2012-07-13 15:06:43 is 19735043.610383419 s in the future
+tar: sysstat-10.1.1/man/sa1.in: time stamp 2012-02-08 14:51:59 is 6255759.609952149 s in the future
+tar: sysstat-10.1.1/man/nfsiostat.in: time stamp 2012-07-13 14:48:55 is 19733975.60952926 s in the future
+tar: sysstat-10.1.1/man/sar.in: time stamp 2012-07-22 03:25:26 is 20470566.608949577 s in the future
+tar: sysstat-10.1.1/man/cifsiostat.in: time stamp 2012-07-13 03:18:55 is 19692575.608500288 s in the future
+tar: sysstat-10.1.1/man/pidstat.1: time stamp 2012-07-13 15:47:10 is 19737470.607933037 s in the future
+tar: sysstat-10.1.1/man/mpstat.1: time stamp 2012-07-13 14:47:44 is 19733904.607489824 s in the future
+tar: sysstat-10.1.1/man/sadf.in: time stamp 2012-07-22 03:25:03 is 20470543.607032713 s in the future
+tar: sysstat-10.1.1/man: time stamp 2012-07-25 04:01:53 is 20731953.606564427 s in the future
+tar: sysstat-10.1.1/sadf_misc.c: time stamp 2012-07-25 03:48:19 is 20731139.606093488 s in the future
+tar: sysstat-10.1.1/ioconf.c: time stamp 2012-07-25 03:48:19 is 20731139.605611094 s in the future
+tar: sysstat-10.1.1/pr_stats.h: time stamp 2012-07-25 03:48:20 is 20731140.605177729 s in the future
+tar: sysstat-10.1.1/configure.in: time stamp 2012-06-25 19:47:28 is 18196688.60467096 s in the future
+tar: sysstat-10.1.1/activity.c: time stamp 2012-07-25 03:48:19 is 20731139.604140167 s in the future
+tar: sysstat-10.1.1/sar.c: time stamp 2012-07-25 03:48:19 is 20731139.603580738 s in the future
+tar: sysstat-10.1.1/iostat.c: time stamp 2012-07-25 03:48:19 is 20731139.602191106 s in the future
+tar: sysstat-10.1.1/rd_sensors.c: time stamp 2012-07-25 03:48:20 is 20731140.601692719 s in the future
+tar: sysstat-10.1.1/sa2.in: time stamp 2012-03-15 23:48:56 is 9398376.601346445 s in the future
+tar: sysstat-10.1.1: time stamp 2012-07-25 04:01:53 is 20731953.601201874 s in the future
+.
+Check programs:
+.
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... 
+yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether ln -s works... yes
+checking for chmod... chmod
+checking for chown... chown
+checking for ar... ar
+checking for install... install
+checking for msgfmt... msgfmt
+checking for xgettext... xgettext
+checking for msgmerge... msgmerge
+checking for bzip2... bzip2
+checking for cp... /bin/cp
+checking for chkconfig... /sbin/chkconfig
+.
+Check header files:
+.
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking libintl.h usability... 
+yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking for sys/stat.h... (cached) yes
+.
+Check typedefs, structures and compiler characteristics:
+.
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for off_t... yes
+.
+Check library functions:
+.
+checking for strchr... 
+yes
+checking for strcspn... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for sensors support... yes
+checking for sensors_get_detected_chips in -lsensors... no
+checking for sensors lib... no
+.
+Check system services:
+.
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+.
+Check configuration:
+.
+checking run-commands directory... /etc/rc.d
+checking sadc directory... /usr/local/lib/sa
+checking system activity directory... /var/log/sa
+checking sysstat configuration directory... /etc/sysconfig
+checking National Language Support... yes
+checking whether sa2 should process data file of the day before... no
+checking number of daily data files to keep... 7
+checking number of days after which data files are compressed... 10
+checking group for manual pages... man
+checking whether man_group variable should be ignored... no
+checking whether manual pages should be compressed... no
+checking whether isag script should be installed... no
+checking whether system activity directory should be cleaned... no
+checking whether cron should start sar automatically... no
+checking whether documentation should be installed... yes
+checking whether object files should be stripped... yes
+.
+Now create files:
+.
+configure: creating ./config.status
+config.status: creating sa1
+config.status: creating sa2
+config.status: creating cron/crontab
+config.status: creating sysstat.sysconfig
+config.status: creating version.h
+config.status: creating sysconfig.h
+config.status: creating cron/sysstat.cron.daily
+config.status: creating cron/sysstat.cron.hourly
+config.status: creating cron/sysstat.crond
+config.status: creating cron/sysstat.crond.sample.in
+config.status: creating sysstat
+config.status: creating man/sa1.8
+
+config.status: creating man/sa2.8
+config.status: creating man/sadc.8
+config.status: creating man/sadf.1
+config.status: creating man/sar.1
+config.status: creating man/sysstat.5
+config.status: creating man/iostat.1
+config.status: creating man/cifsiostat.1
+config.status: creating man/nfsiostat.1
+config.status: creating contrib/isag/isag
+config.status: creating Makefile
+
+   Sysstat version:		10.1.1
+   Installation prefix:		/usr/local
+   rc directory:		/etc/rc.d
+   Init directory:		/etc/rc.d/init.d
+   Configuration directory:	/etc/sysconfig
+   Man pages directory:		${datarootdir}/man
+   Compiler:			gcc
+   Compiler flags:		-g -O2
+
+make: Warning: File `sadc.c' has modification time 2.1e+07 s in the future
+gcc -o sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadc.c
+gcc -o act_sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADC  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o sa_wrap.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_wrap.c
+
+gcc -o sa_common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_common.c
+
+gcc -o rd_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_stats.c
+
+ar rv librdstats.a rd_stats.o
+r - rd_stats.o
+gcc -o rd_sensors.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_sensors.c
+ar rv librdsensors.a rd_sensors.o
+r - rd_sensors.o
+gcc -o common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" common.c
+gcc -o ioconf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" ioconf.c
+
+ar rvs libsyscom.a common.o ioconf.o
+r - common.o
+r - ioconf.o
+gcc -o sadc -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadc.o act_sadc.o sa_wrap.o sa_common.o librdstats.a librdsensors.a libsyscom.a -s 
+gcc -o sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sar.c
+gcc -o act_sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SAR  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o pr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pr_stats.c
+
+gcc -o sar -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sar.o act_sar.o sa_common.o pr_stats.o libsyscom.a -s
+
+gcc -o sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf.c
+gcc -o act_sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADF  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o format.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" format.c
+gcc -o sadf_misc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf_misc.c
+
+gcc -o rndr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rndr_stats.c
+
+gcc -o xml_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" xml_stats.c
+
+gcc -o json_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" json_stats.c
+
+gcc -o sadf -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadf.o act_sadf.o format.o sadf_misc.o rndr_stats.o xml_stats.o json_stats.o sa_common.o libsyscom.a -s
+gcc -o iostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" iostat.c
+
+gcc -o iostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 iostat.o librdstats.a libsyscom.a -s
+gcc -o mpstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" mpstat.c
+gcc -o mpstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 mpstat.o librdstats.a libsyscom.a -s
+gcc -o pidstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pidstat.c
+
+gcc -o pidstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 pidstat.o librdstats.a libsyscom.a -s
+gcc -o nfsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" nfsiostat.c
+
+gcc -o nfsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 nfsiostat.o librdstats.a libsyscom.a -s
+gcc -o cifsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" cifsiostat.c
+gcc -o cifsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 cifsiostat.o librdstats.a libsyscom.a -s
+msgfmt -o nls/cs.gmo nls/cs.po
+msgfmt -o nls/da.gmo nls/da.po
+msgfmt -o nls/de.gmo nls/de.po
+msgfmt -o nls/eo.gmo nls/eo.po
+msgfmt -o nls/eu.gmo nls/eu.po
+msgfmt -o nls/fi.gmo nls/fi.po
+msgfmt -o nls/hr.gmo nls/hr.po
+msgfmt -o nls/id.gmo nls/id.po
+msgfmt -o nls/lv.gmo nls/lv.po
+msgfmt -o nls/nl.gmo nls/nl.po
+msgfmt -o nls/ru.gmo nls/ru.po
+msgfmt -o nls/sk.gmo nls/sk.po
+msgfmt -o nls/sr.gmo nls/sr.po
+msgfmt -o nls/uk.gmo nls/uk.po
+msgfmt -o nls/vi.gmo nls/vi.po
+msgfmt -o nls/zh_CN.gmo nls/zh_CN.po
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Warning: File `sadc.c' has modification time 2.1e+07 s in the future
+gcc -o sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadc.c
+
+gcc -o act_sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADC  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o sa_wrap.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_wrap.c
+gcc -o sa_common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_common.c
+
+gcc -o rd_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_stats.c
+
+ar rv librdstats.a rd_stats.o
+r - rd_stats.o
+gcc -o rd_sensors.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_sensors.c
+ar rv librdsensors.a rd_sensors.o
+r - rd_sensors.o
+gcc -o common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" common.c
+
+gcc -o ioconf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" ioconf.c
+ar rvs libsyscom.a common.o ioconf.o
+r - common.o
+r - ioconf.o
+gcc -o sadc -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadc.o act_sadc.o sa_wrap.o sa_common.o librdstats.a librdsensors.a libsyscom.a -s 
+gcc -o sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sar.c
+
+gcc -o act_sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SAR  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o pr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pr_stats.c
+
+gcc -o sar -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sar.o act_sar.o sa_common.o pr_stats.o libsyscom.a -s
+gcc -o sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf.c
+
+gcc -o act_sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADF  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o format.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" format.c
+gcc -o sadf_misc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf_misc.c
+gcc -o rndr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rndr_stats.c
+
+gcc -o xml_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" xml_stats.c
+
+gcc -o json_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" json_stats.c
+
+gcc -o sadf -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadf.o act_sadf.o format.o sadf_misc.o rndr_stats.o xml_stats.o json_stats.o sa_common.o libsyscom.a -s
+
+gcc -o iostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" iostat.c
+gcc -o iostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 iostat.o librdstats.a libsyscom.a -s
+gcc -o mpstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" mpstat.c
+
+gcc -o mpstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 mpstat.o librdstats.a libsyscom.a -s
+gcc -o pidstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pidstat.c
+
+gcc -o pidstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 pidstat.o librdstats.a libsyscom.a -s
+gcc -o nfsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" nfsiostat.c
+gcc -o nfsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 nfsiostat.o librdstats.a libsyscom.a -s
+gcc -o cifsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" cifsiostat.c
+
+gcc -o cifsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 cifsiostat.o librdstats.a libsyscom.a -s
+msgfmt -o nls/cs.gmo nls/cs.po
+msgfmt -o nls/da.gmo nls/da.po
+msgfmt -o nls/de.gmo nls/de.po
+msgfmt -o nls/eo.gmo nls/eo.po
+msgfmt -o nls/eu.gmo nls/eu.po
+msgfmt -o nls/fi.gmo nls/fi.po
+msgfmt -o nls/hr.gmo nls/hr.po
+msgfmt -o nls/id.gmo nls/id.po
+msgfmt -o nls/lv.gmo nls/lv.po
+msgfmt -o nls/nl.gmo nls/nl.po
+msgfmt -o nls/ru.gmo nls/ru.po
+msgfmt -o nls/sk.gmo nls/sk.po
+msgfmt -o nls/sr.gmo nls/sr.po
+msgfmt -o nls/uk.gmo nls/uk.po
+msgfmt -o nls/vi.gmo nls/vi.po
+msgfmt -o nls/zh_CN.gmo nls/zh_CN.po
+mkdir -p /usr/local/share/man/man1
+mkdir -p /usr/local/share/man/man5
+mkdir -p /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sa1.8*
+install -m 644 -g man man/sa1.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sa2.8*
+install -m 644 -g man man/sa2.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sadc.8*
+install -m 644 -g man man/sadc.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man1/sar.1*
+install -m 644 -g man man/sar.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/sadf.1*
+install -m 644 -g man man/sadf.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man5/sysstat.5*
+install -m 644 -g man man/sysstat.5 /usr/local/share/man/man5
+rm -f /usr/local/share/man/man1/iostat.1*
+install -m 644 -g man man/iostat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/mpstat.1*
+install -m 644 -g man man/mpstat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/pidstat.1*
+install -m 644 -g man man/pidstat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/nfsiostat.1*
+install -m 644 -g man man/nfsiostat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/cifsiostat.1*
+install -m 644 -g man man/cifsiostat.1 /usr/local/share/man/man1
+catalogs='nls/af.gmo nls/cs.gmo nls/da.gmo nls/de.gmo nls/eo.gmo nls/es.gmo nls/eu.gmo nls/fi.gmo nls/fr.gmo nls/hr.gmo nls/id.gmo nls/it.gmo nls/ja.gmo nls/ky.gmo nls/lv.gmo nls/mt.gmo nls/nb.gmo nls/nl.gmo nls/nn.gmo nls/pl.gmo nls/pt_BR.gmo nls/pt.gmo nls/ro.gmo nls/ru.gmo nls/sk.gmo nls/sr.gmo nls/sv.gmo nls/uk.gmo nls/vi.gmo nls/zh_CN.gmo nls/zh_TW.gmo'; \
+	for c in $catalogs; do \
+		c=`basename $c`; \
+		c=`echo $c | sed 's/\.gmo$//'`; \
+		mkdir -p /usr/local/share/locale/$c/LC_MESSAGES; \
+		echo "NLS: Installing $c file..." ; \
+		install -m 644 nls/$c.gmo /usr/local/share/locale/$c/LC_MESSAGES/sysstat.mo; \
+	done
+NLS: Installing af file...
+NLS: Installing cs file...
+NLS: Installing da file...
+NLS: Installing de file...
+NLS: Installing eo file...
+NLS: Installing es file...
+NLS: Installing eu file...
+NLS: Installing fi file...
+NLS: Installing fr file...
+NLS: Installing hr file...
+NLS: Installing id file...
+NLS: Installing it file...
+NLS: Installing ja file...
+NLS: Installing ky file...
+NLS: Installing lv file...
+NLS: Installing mt file...
+NLS: Installing nb file...
+NLS: Installing nl file...
+NLS: Installing nn file...
+NLS: Installing pl file...
+NLS: Installing pt_BR file...
+NLS: Installing pt file...
+NLS: Installing ro file...
+NLS: Installing ru file...
+NLS: Installing sk file...
+NLS: Installing sr file...
+NLS: Installing sv file...
+NLS: Installing uk file...
+NLS: Installing vi file...
+NLS: Installing zh_CN file...
+NLS: Installing zh_TW file...
+mkdir -p /usr/local/lib/sa
+mkdir -p /var/log/sa
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/share/doc/sysstat-10.1.1
+mkdir -p /etc/sysconfig
+install -m 755 sa1 /usr/local/lib/sa
+install -m 755 sa2 /usr/local/lib/sa
+install -m 755 sadc /usr/local/lib/sa
+install -m 755 sar /usr/local/bin
+install -m 755 sadf /usr/local/bin
+install -m 755 iostat /usr/local/bin
+install -m 755 mpstat /usr/local/bin
+install -m 755 pidstat /usr/local/bin
+install -m 755 nfsiostat /usr/local/bin
+install -m 755 cifsiostat /usr/local/bin
+install -m 644 sysstat.ioconf /etc/sysconfig
+install -m 644 sysstat.sysconfig /etc/sysconfig/sysstat
+install -m 644 CHANGES /usr/local/share/doc/sysstat-10.1.1
+install -m 644 COPYING /usr/local/share/doc/sysstat-10.1.1
+install -m 644 CREDITS /usr/local/share/doc/sysstat-10.1.1
+install -m 644 README /usr/local/share/doc/sysstat-10.1.1
+install -m 644 FAQ /usr/local/share/doc/sysstat-10.1.1
+install -m 644 *.lsm /usr/local/share/doc/sysstat-10.1.1
+make: warning:  Clock skew detected.  Your build may be incomplete.
+[root@feitian gns_test]# 
+\cp -f kcpu /sbin
+[root@feitian gns_test]# 
+\cp -f iozone /sbin
+[root@feitian gns_test]# 
+\cp -f nmon /sbin
+[root@feitian gns_test]# 
+\cp -f iperf /sbin
+[root@feitian gns_test]# 
+\cp -f cpulimit /sbin
+[root@feitian gns_test]# 
+\cp -f run_kcpu.sh /sbin
+[root@feitian gns_test]# 
+cd 429
+[root@feitian 429]# 
+\cp -f * /sbin
+[root@feitian 429]# 
+cd /
+[root@feitian /]# 
+############################################# Version Check #############################################
+vershow&
+[1] 8487
+[root@feitian /]# underlying version:r14753
+
+Config version:def-r14753-0
+
+docker version:1.7.1
+
+nginx version:
+
+Error response from daemon: no such id: ifw
+nodejs version:
+
+Error response from daemon: no such id: mongo
+mongodb version:
+
+
+[1]+  Done                    vershow
+[root@feitian /]# 
+[root@feitian /]# 
+Software Version£ºr14753,PASS
+fpga_version
+FPGA version:V1.7
+[root@feitian /]# 
+FPGA£ºV1.7,PASS
+swv_read
+software version :REL-1.00B007
+[root@feitian /]# 
+SWV£ºREL-1.00B007,PASS
+mod_read
+Mod number:B
+[root@feitian /]# 
+MOD£ºB,PASS
+spn_read
+software part number:5010000002
+[root@feitian /]# 
+SPN£º5010000002,PASS
+dpn_read
+PN_VERSION:9010100001
+[root@feitian /]# 
+DPN£º9010100001,PASS
+board_pn_read
+Board_Product_Number:3010100023
+[root@feitian /]# 
+BPN£º3010100023,PASS
+fpgapn_read
+fpga part number:5010000007
+[root@feitian /]# 
+FPGA PN£º5010000007,PASS
+isopn_read
+iso part number:5010000013
+[root@feitian /]# 
+ISO PN£º5010000013,PASS
+uname -a
+Linux feitian 3.10.5-3.el6.x86_64 #1 SMP Tue Aug 20 14:10:49 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+[root@feitian /]# 
+System Version£º3.10.5-3.el6.x86_64,PASS
+dsn_read
+SN_VERSION:031808090005
+[root@feitian /]# 
+board_sn_read
+Board_Serial_Number:011807030003
+[root@feitian /]# 
+########################################### MAC Check ###########################################
+ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.10:1 Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+[root@feitian /]# 
+MAC PASS
+############################################# Temperature Check #############################################
+sensors -u&
+[1] 9778
+[root@feitian /]# coretemp-isa-0000
+Adapter: ISA adapter
+Core 0:
+  temp2_input: 51.00
+  temp2_max: 105.00
+  temp2_crit: 105.00
+  temp2_crit_alarm: 0.00
+Core 1:
+  temp3_input: 49.00
+  temp3_max: 105.00
+  temp3_crit: 105.00
+  temp3_crit_alarm: 0.00
+
+
+
+[1]+  Done                    sensors -u
+[root@feitian /]# 
+[root@feitian /]# 
+CPU Core 0 Temperature:51.00¡æ,PASS
+CPU Core 1 Temperature:49.00¡æ,PASS
+############################################# Memory Check #############################################
+iostat -m
+Linux 3.10.5-3.el6.x86_64 (feitian) 	11/28/2011 	_x86_64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           5.62    0.00    4.49    0.08    0.00   89.82
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+sdb               0.14         0.00         0.00          0          0
+sda               7.22         0.08         0.07        112         92
+
+[root@feitian /]# 
+free | grep Mem | awk '{print $2}'
+8126588
+[root@feitian /]# 
+Memory:8126588,PASS
+############################################# NTP Check #############################################
+service ntpd stop
+Shutting down ntpd: [60G[[0;31mFAILED[0;39m]
+[root@feitian /]# 
+ntpdate 10.255.250.6 &
+[1] 10265
+[root@feitian /]# 21 Feb 15:39:13 ntpdate[10265]: step time server 10.255.250.6 offset 228306520.454747 sec
+
+
+[1]+  Done                    ntpdate 10.255.250.6
+[root@feitian /]# 
+[root@feitian /]# 
+date
+Thu Feb 21 15:39:21 CST 2019
+[root@feitian /]# 
+NTP PASS
+############################################ Discrete Check ############################################
+arinc set_control_off
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 1 low
+input data is 1.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 2 low
+input data is 2.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 3 low
+input data is 3.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 4 low
+input data is 4.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 5 low
+input data is 5.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 6 low
+input data is 6.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 7 low
+input data is 7.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 8 low
+input data is 8.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 9 low
+input data is 9.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 10 low
+input data is 10.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 11 low
+input data is 11.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 12 low
+input data is 12.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 13 low
+input data is 13.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 14 low
+input data is 14.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 15 low
+input data is 15.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 16 low
+input data is 16.
+hi8435 operation succeed.
+[root@feitian /]# 
+arinc  get_signalstatusmatrix
+(0)1(1)1(2)1(3)0(4)1(5)1(6)1(7)1(8)1(9)1(10)1(11)1(12)1
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 1 high
+input data is 1.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 2 high
+input data is 2.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 3 high
+input data is 3.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 4 high
+input data is 4.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 5 high
+input data is 5.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 6 high
+input data is 6.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 7 high
+input data is 7.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 8 high
+input data is 8.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 9 high
+input data is 9.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 10 high
+input data is 10.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 11 high
+input data is 11.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 12 high
+input data is 12.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 13 high
+input data is 13.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 14 high
+input data is 14.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 15 high
+input data is 15.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 16 high
+input data is 16.
+hi8435 operation succeed.
+[root@feitian /]# 
+arinc  get_signalstatusmatrix
+(0)0(1)0(2)0(3)1(4)0(5)0(6)0(7)0(8)0(9)0(10)0(11)0(12)0
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 1 low
+input data is 1.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 2 low
+input data is 2.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 3 low
+input data is 3.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 4 low
+input data is 4.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 5 low
+input data is 5.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 6 low
+input data is 6.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 7 low
+input data is 7.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 8 low
+input data is 8.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 9 low
+input data is 9.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 10 low
+input data is 10.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 11 low
+input data is 11.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 12 low
+input data is 12.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 13 low
+input data is 13.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 14 low
+input data is 14.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 15 low
+input data is 15.
+hi8435 operation succeed.
+[root@feitian /]# 
+hi8435_cfg wrDiscOut 16 low
+input data is 16.
+hi8435 operation succeed.
+[root@feitian /]# 
+arinc  get_signalstatusmatrix
+(0)1(1)1(2)1(3)0(4)1(5)1(6)1(7)1(8)1(9)1(10)1(11)1(12)1
+[root@feitian /]# 
+Discrete Check PASS
+############################################# ARINC429 Check #############################################
+hi3593_c0_cfg setRx1BitRate  high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+hi3593_c0_cfg setRx2BitRate  high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+hi3593_c0_cfg setTxBitRate high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+hi3593_c1_cfg setRx1BitRate  high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+hi3593_c1_cfg setRx2BitRate  high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+hi3593_c1_cfg setTxBitRate high
+hi3593 chip0 operation succeed.
+[root@feitian /]# 
+[root@feitian /]# 
+ps | grep -c netlink_u_self.APP
+0
+[root@feitian /]# 
+netlink_u_app &
+[1] 14175
+[root@feitian /]# 
+[root@feitian /]# state_smg
+waiting received!
+In while recvmsg
+
+hi429_sendmsg_user_chip0 123 3
+the data is 123.
+In while
+Received message from kernel: 0x42910001
+ the length of the data is 1 
+ the first data is 123 
+ the second data is 0 
+In while recvmsg
+In while
+Received message from kernel: 0x42910001
+ the length of the data is 2 
+ the first data is 123 
+ the second data is 123 
+In while recvmsg
+[root@feitian /]# 
+[root@feitian /]# 
+ARINC429 CHIP0 PASS
+hi429_sendmsg_user_chip1 456 3
+the data is 456.
+In while
+Received message from kernel: 0x42920001
+ the length of the data is 1 
+ the first data is 456 
+ the second data is 123 
+In while recvmsg
+In while
+Received message from kernel: 0x42920001
+ the length of the data is 2 
+ the first data is 456 
+ the second data is 456 
+In while recvmsg
+[root@feitian /]# 
+[root@feitian /]# 
+ARINC429 CHIP1 PASS
+######################################## Ethernet Front-end Ports Rate Check ########################################
+ping 10.255.250.6 -c5
+PING 10.255.250.6 (10.255.250.6) 56(84) bytes of data.
+64 bytes from 10.255.250.6: icmp_seq=1 ttl=64 time=0.528 ms
+
+64 bytes from 10.255.250.6: icmp_seq=2 ttl=64 time=0.465 ms
+
+64 bytes from 10.255.250.6: icmp_seq=3 ttl=64 time=0.437 ms
+
+64 bytes from 10.255.250.6: icmp_seq=4 ttl=64 time=0.482 ms
+
+64 bytes from 10.255.250.6: icmp_seq=5 ttl=64 time=0.494 ms
+
+--- 10.255.250.6 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 0.437/0.481/0.528/0.033 ms
+[root@feitian /]# 
+iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 15072
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+[  3]  0.0-30.0 sec  3.19 GBytes   914 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'
+[root@feitian /]# 
+[root@feitian /]# 
+Ethernet port 1 rate£º914Mbits/sec PASS,please connect to ETH2
+iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 17050
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+[  3]  0.0-30.0 sec  3.26 GBytes   934 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'
+[root@feitian /]# 
+[root@feitian /]# 
+Ethernet port 2 rate£º934Mbits/sec PASS,please connect to ETH3
+iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 19116
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+[  3]  0.0-30.0 sec  3.26 GBytes   934 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'
+[root@feitian /]# 
+[root@feitian /]# 
+Ethernet port 3 rate£º934Mbits/sec PASS,please connect to ETH4
+iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 20906
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+[  3]  0.0-30.0 sec  3.26 GBytes   934 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'
+[root@feitian /]# 
+[root@feitian /]# 
+Ethernet port 4 rate£º934Mbits/sec PASS,please connect to ETH5
+iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 22886
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+[  3]  0.0-30.0 sec  3.27 GBytes   937 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.255.250.6 -w1m -i1 -t30 | grep '0.0-3'
+[root@feitian /]# 
+[root@feitian /]# 
+Ethernet port 5 rate£º937Mbits/sec PASS
+############################################# USB Check #############################################
+mkdir usb
+[root@feitian /]# 
+fdisk -l | grep FAT32 | awk '{print $1}'
+/dev/sdc4
+[root@feitian /]# 
+U Disk PASS
+mount /dev/sdc4 usb
+[root@feitian /]# 
+cd usb
+[root@feitian usb]# 
+dd bs=1M count=100 if=/dev/sdc4 of=test conv=fsync
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100+0 records in
+100+0 records out
+104857600 bytes (105 MB) copied, 24.676 s, 4.2 MB/s
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+[root@feitian usb]# 
+rm -rf test
+[root@feitian usb]# 
+cd ..
+[root@feitian /]# 
+umount usb
+[root@feitian /]# 
+rm -rf usb
+[root@feitian /]# 
+USB W+R Rate: 4.2 MB/s
+########################################### SSD Check ###########################################
+lspci
+00:00.0 Host bridge: Intel Corporation Mobile 4 Series Chipset Memory Controller Hub (rev 07)
+00:02.0 VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+00:02.1 Display controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+00:03.0 Communication controller: Intel Corporation Mobile 4 Series Chipset MEI Controller (rev 07)
+00:19.0 Ethernet controller: Intel Corporation 82567LM Gigabit Network Connection (rev 03)
+00:1a.0 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #4 (rev 03)
+00:1a.1 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #5 (rev 03)
+00:1a.7 USB controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #2 (rev 03)
+00:1b.0 Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller (rev 03)
+00:1c.0 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 1 (rev 03)
+00:1c.1 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 2 (rev 03)
+00:1c.2 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 3 (rev 03)
+00:1c.3 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 4 (rev 03)
+00:1c.4 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 5 (rev 03)
+00:1d.0 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #1 (rev 03)
+00:1d.1 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #2 (rev 03)
+00:1d.2 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #3 (rev 03)
+00:1d.3 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #6 (rev 03)
+00:1d.7 USB controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #1 (rev 03)
+00:1e.0 PCI bridge: Intel Corporation 82801 Mobile PCI Bridge (rev 93)
+00:1f.0 ISA bridge: Intel Corporation ICH9M-E LPC Interface Controller (rev 03)
+00:1f.2 IDE interface: Intel Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode] (rev 03)
+00:1f.3 SMBus: Intel Corporation 82801I (ICH9 Family) SMBus Controller (rev 03)
+00:1f.5 IDE interface: Intel Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode] (rev 03)
+02:00.0 Communication controller: Xilinx Corporation Device 7011
+03:00.0 Ethernet controller: Intel Corporation I210 Gigabit Backplane Connection (rev 03)
+07:08.0 IDE interface: Silicon Image, Inc. PCI0680 Ultra ATA-133 Host Controller (rev 02)
+[root@feitian /]# 
+SSD Module Recognition PASS
+fdisk -l | grep -c sda
+7
+[root@feitian /]# 
+df | grep -c sda
+4
+[root@feitian /]# 
+fdisk -l | grep sda
+Disk /dev/sda: 992.2 GB, 992203333632 bytes
+/dev/sda1   *           1         131     1048576   83  Linux
+/dev/sda2             131       26240   209715200   83  Linux
+/dev/sda3           26240       28850    20971520   83  Linux
+/dev/sda4           28850      120629   737212248    5  Extended
+/dev/sda5           28850       29112     2097152   82  Linux swap / Solaris
+/dev/sda6           29112      120629   735112192   83  Linux
+[root@feitian /]# 
+SSD-1 size=992.2GB PASS
+fdisk -l | grep sdb
+Disk /dev/sdb: 992.2 GB, 992203333632 bytes
+[root@feitian /]# 
+SSD-2 size=992.2GB PASS
+dd bs=16M count=1024 if=/dev/zero of=test conv=fdatasync
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1024+0 records in
+1024+0 records out
+17179869184 bytes (17 GB) copied, 71.4538 s, 240 MB/s
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+dd bs=16M if=test of=/dev/null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1024+0 records in
+1024+0 records out
+17179869184 bytes (17 GB) copied, 72.727 s, 236 MB/s
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+[root@feitian /]# 
+rm -rf test
+
+[root@feitian /]# 
+SSD Read Rate£º236MB/s PASS
+SSD Write Rate£º240MB/s PASS
+echo 3 >> /proc/sys/vm/drop_caches&
+[2] 3943
+[root@feitian /]# 
+free -m
+             total       used       free     shared    buffers     cached
+Mem:          7936        152       7784          0          2         20
+-/+ buffers/cache:        128       7807
+Swap:         2047          0       2047
+[2]+  Done                    echo 3 >> /proc/sys/vm/drop_caches
+[root@feitian /]# 
+cd /
+[root@feitian /]# 
+<font size = 10>LRU Test Completed PASS</font>

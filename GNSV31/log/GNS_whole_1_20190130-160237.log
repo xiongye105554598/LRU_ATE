@@ -1,0 +1,919 @@
+############################################# Login #############################################
+Last login: Wed Jan 30 16:01:35 2019 from 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+cd /root/software/gns_test/
+-bash: cd: /root/software/gns_test/: No such file or directory
+[root@localhost ~]#
+chmod +x *
+[root@localhost ~]#
+./install_sysstat.sh
+-bash: ./install_sysstat.sh: No such file or directory
+[root@localhost ~]#
+\cp -f kcpu /sbin
+cp: cannot stat ¡®kcpu¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f iozone /sbin
+cp: cannot stat ¡®iozone¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f nmon /sbin
+cp: cannot stat ¡®nmon¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f iperf /sbin
+cp: cannot stat ¡®iperf¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f cpulimit /sbin
+cp: cannot stat ¡®cpulimit¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f run_kcpu.sh /sbin
+cp: cannot stat ¡®run_kcpu.sh¡¯: No such file or directory
+[root@localhost ~]#
+cd 429
+-bash: cd: 429: No such file or directory
+[root@localhost ~]#
+\cp -f * /sbin
+cp: omitting directory ¡®software¡¯
+[root@localhost ~]#
+cd
+[root@localhost ~]#
+######################################### Version Check #########################################
+vershow&
+[1] 12436
+[root@localhost ~]#underlying version:r14743
+
+Config version:def-r14743-0
+
+docker version:18.06.1-ce
+
+nginx version:
+
+Error: No such container: ifw
+nodejs version:
+
+Error: No such container: mongo
+mongodb version:
+
+
+[1]+  Done                    vershow
+[root@localhost ~]#
+[root@localhost ~]#
+Software Version£ºr14743,PASS
+fpga_version
+FPGA version:V1.8
+[root@localhost ~]#
+FPGA£ºV1.8,PASS
+swv_read
+software version :REL-1.00B001
+[root@localhost ~]#
+SWV£ºREL-1.00B001,PASS
+mod_read
+Mod number:NA
+[root@localhost ~]#
+MOD£ºNA,PASS
+spn_read
+software part number:501000049
+[root@localhost ~]#
+SPN£º501000049,PASS
+dpn_read
+PN_VERSION:9010100020
+[root@localhost ~]#
+DPN£º9010100020,PASS
+board_pn_read
+Board_Product_Number:3010100025
+[root@localhost ~]#
+BPN£º3010100025,PASS
+fpgapn_read
+fpga part number:5010000007
+[root@localhost ~]#
+FPGA PN£º5010000007,PASS
+isopn_read
+iso part number:5010000013
+[root@localhost ~]#
+ISO PN£º5010000013,PASS
+uname -a
+Linux localhost.localdomain 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[root@localhost ~]#
+System Version£º3.10.5-3.el6.x86_64,PASS
+dsn_read
+SN_VERSION:031812250002
+[root@localhost ~]#
+board_sn_read
+Board_Serial_Number:011601231005
+[root@localhost ~]#
+########################################### MAC Check ###########################################
+ifconfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:2d:b2:ab:01  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 1518791  bytes 100330176 (95.6 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14498437  bytes 21932624954 (20.4 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xf7c00000-f7c7ffff  
+
+eth0.1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.90.0.2  netmask 255.255.255.240  broadcast 10.90.0.15
+        inet6 fe80
+::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 1518785  bytes 79066730 (75.4 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 333831  bytes 20997659436 (19.5 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.1:0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.255.250.2  netmask 255.255.255.0  broadcast 10.255.250.255
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+
+eth0.5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.91.0.1  netmask 255.255.255.240  broadcast 10.91.0.15
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50  bytes 7496 (7.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+eth0.10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.82.0.1  netmask 255.255.252.0  broadcast 10.82.3.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 58  bytes 8567 (8.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.10:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.1  netmask 255.255.255.0  broadcast 10.0.0.255
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+
+eth0.20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.19.0.3  netmask 255.255.252.0  broadcast 172.19.3.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  
+frame 0
+        TX packets 283  bytes 145462 (142.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.41.0.3  netmask 255.255.255.0  broadcast 172.41.0.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1797  bytes 80834 (78.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.45.0.3  netmask 255.255.255.0  broadcast 172.45.0.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50  bytes 7547 (7.3 KiB)
+        TX 
+errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 46730  bytes 3611438 (3.4 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 46730  bytes 3611438 (3.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+mgmt0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.1.100  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 00:13:95:1c:0b:6b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xf7e00000-f7e20000  
+
+[root@localhost ~]#
+MAC PASS
+######################################## 4G Module Check ########################################
+lsusb | grep -c '2c7c'
+1
+[root@localhost ~]#
+9b3c Module PASS
+atget simcard
+
+
+
+
+SIM check Success
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+4G Network PASS
+####################################### Temperature Check #######################################
+sensors -u&
+[1] 15031
+[root@localhost ~]#acpitz-virtual-0
+Adapter: Virtual device
+temp1:
+  temp1_input: 78.000
+  temp1_crit: 111.000
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Physical id 0:
+  temp1_input: 79.000
+  temp1_max: 87.000
+  temp1_crit: 105.000
+  temp1_crit_alarm: 0.000
+Core 0:
+  temp2_input: 79.000
+  temp2_max: 87.000
+  temp2_crit: 105.000
+  temp2_crit_alarm: 0.000
+Core 1:
+  temp3_input: 77.000
+  temp3_max: 87.000
+  temp3_crit: 105.000
+  temp3_crit_alarm: 0.000
+
+
+
+[1]+  Done                    sensors -u
+[root@localhost ~]#
+[root@localhost ~]#
+CPU Core 0 Temperature:79.000¡æ,PASS
+CPU Core 1 Temperature:77.000¡æ,PASS
+########################################## Memory Check ##########################################
+free | grep Mem | awk '{print $2}'
+16175356
+[root@localhost ~]#
+Memory:16175356,PASS
+########################################### NTP Check ###########################################
+service ntpd stop
+Stopping ntpd (via systemctl):  [60G[[0;32m  OK  [0;39m]
+[root@localhost ~]#
+ntpdate 10.90.0.10 &
+[1] 15791
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+30 Jan 16:03:49 ntpdate[15791]: adjust time server 10.90.0.10 offset -0.053968 sec
+
+
+[1]+  Done                    ntpdate 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+date
+Wed Jan 30 16:03:57 CST 2019
+[root@localhost ~]#
+NTP PASS
+######################################## Discrete Check ########################################
+arinc set_control_off
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 1 low
+input data is 1.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 2 low
+input data is 2.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 3 low
+input data is 3.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 4 low
+input data is 4.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 5 low
+input data is 5.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 6 low
+input data is 6.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 7 low
+input data is 7.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 8 low
+input data is 8.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 9 low
+input data is 9.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 10 low
+input data is 10.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 11 low
+input data is 11.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 12 low
+input data is 12.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 13 low
+input data is 13.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 14 low
+input data is 14.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 15 low
+input data is 15.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 16 low
+input data is 16.
+hi8435 operation succeed.
+[root@localhost ~]#
+arinc  get_signalstatusmatrix
+(0)0(1)0(2)0(3)0(4)1(5)1(6)1(7)1(8)1(9)1(10)1(11)1(12)1
+[root@localhost ~]#
+hi8435_cfg rdDiscIn
+GNS_DISC_IN_REG value is 0x7.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 1 high
+input data is 1.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 2 high
+input data is 2.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 3 high
+input data is 3.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 4 high
+input data is 4.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 5 high
+input data is 5.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 6 high
+input data is 6.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 7 high
+input data is 7.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 8 high
+input data is 8.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 9 high
+input data is 9.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 10 high
+input data is 10.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 11 high
+input data is 11.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 12 high
+input data is 12.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 13 high
+input data is 13.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 14 high
+input data is 14.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 15 high
+input data is 15.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 16 high
+input data is 16.
+hi8435 operation succeed.
+[root@localhost ~]#
+arinc  get_signalstatusmatrix
+(0)1(1)1(2)1(3)1(4)0(5)0(6)0(7)0(8)0(9)0(10)0(11)0(12)0
+[root@localhost ~]#
+hi8435_cfg rdDiscIn
+GNS_DISC_IN_REG value is 0x0.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 1 low
+input data is 1.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 2 low
+input data is 2.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 3 low
+input data is 3.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 4 low
+input data is 4.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 5 low
+input data is 5.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 6 low
+input data is 6.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 7 low
+input data is 7.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 8 low
+input data is 8.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 9 low
+input data is 9.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 10 low
+input data is 10.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 11 low
+input data is 11.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 12 low
+input data is 12.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 13 low
+input data is 13.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 14 low
+input data is 14.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 15 low
+input data is 15.
+hi8435 operation succeed.
+[root@localhost ~]#
+hi8435_cfg wrDiscOut 16 low
+input data is 16.
+hi8435 operation succeed.
+[root@localhost ~]#
+arinc  get_signalstatusmatrix
+(0)0(1)0(2)0(3)0(4)1(5)1(6)1(7)1(8)1(9)1(10)1(11)1(12)1
+[root@localhost ~]#
+hi8435_cfg rdDiscIn
+GNS_DISC_IN_REG value is 0x7.
+hi8435 operation succeed.
+[root@localhost ~]#
+Discrete Check PASS
+######################################## ARINC429 Check ########################################
+hi3593_c0_cfg setRx1BitRate  high
+hi3593 chip0 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+hi3593_c0_cfg setRx2BitRate  high
+hi3593 chip0 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+hi3593_c0_cfg setTxBitRate high
+hi3593 chip0 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+hi3593_c1_cfg setRx1BitRate  high
+hi3593 chip1 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+hi3593_c1_cfg setRx2BitRate  high
+hi3593 chip1 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+hi3593_c1_cfg setTxBitRate high
+hi3593 chip1 operation succeed.
+[root@localhost ~]#
+[root@localhost ~]#
+ps | grep -c netlink_u_self.APP
+0
+[root@localhost ~]#
+netlink_u_app &
+[1] 22553
+[root@localhost ~]#
+[root@localhost ~]#state_smg
+waiting received!
+In while recvmsg
+
+hi429_sendmsg_user_chip0 123 3
+the data is 123.
+In while
+Received message from kernel: 0x42910001
+ the length of the data is 1 
+ the first data is 123 
+ the second data is 0 
+In while recvmsg
+In while
+Received message from kernel: 0x42910001
+ the length of the data is 2 
+ the first data is 123 
+ the second data is 123 
+In while recvmsg
+[root@localhost ~]#
+[root@localhost ~]#
+ARINC429 CHIP0 PASS
+hi429_sendmsg_user_chip1 456 3
+the data is 456.
+In while
+Received message from kernel: 0x42920001
+ the length of the data is 2 
+ the first data is 2147483191 
+ the second data is 2147483191 
+In while recvmsg
+[root@localhost ~]#
+[root@localhost ~]#In while
+Received message from kernel: 0x42920001
+ the length of the data is 1 
+ the first data is 2147483191 
+ the second data is 2147483191 
+In while recvmsg
+
+ARINC429 CHIP1 PASS
+################################### Ethernet Front-end Ports Rate Check ###################################
+ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.530 ms
+
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.482 ms
+
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.411 ms
+
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.420 ms
+
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.520 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 0.411/0.472/0.530/0.054 ms
+[root@localhost ~]#
+iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 23890
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#[  3]  [01;31m[K0.0-3[m[K0.0 sec  3.26 GBytes   933 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.90.0.10 -w1m -i1 -t30 | grep --color=auto '0.0-3'
+[root@localhost ~]#
+[root@localhost ~]#
+Ethernet port 1 rate£º933Mbits/sec PASS,please connect to ETH2
+iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 27235
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+[  3]  [01;31m[K0.0-3[m[K0.0 sec  3.27 GBytes   935 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.90.0.10 -w1m -i1 -t30 | grep --color=auto '0.0-3'
+[root@localhost ~]#
+[root@localhost ~]#
+Ethernet port 2 rate£º935Mbits/sec PASS,please connect to ETH3
+iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 30730
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+[  3]  [01;31m[K0.0-3[m[K0.0 sec  3.27 GBytes   936 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.90.0.10 -w1m -i1 -t30 | grep --color=auto '0.0-3'
+[root@localhost ~]#
+
+Ethernet port 3 rate£º936Mbits/sec PASS,please connect to ETH4
+[root@localhost ~]#iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 2185
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+[  3]  [01;31m[K0.0-3[m[K0.0 sec  3.27 GBytes   936 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.90.0.10 -w1m -i1 -t30 | grep --color=auto '0.0-3'
+[root@localhost ~]#
+
+Ethernet port 4 rate£º936Mbits/sec PASS,please connect to ETH5
+[root@localhost ~]#iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+[2] 5479
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#
+
+
+[root@localhost ~]#
+[root@localhost ~]#[  3]  [01;31m[K0.0-3[m[K0.0 sec  3.27 GBytes   936 Mbits/sec
+
+
+[2]+  Done                    iperf -c 10.90.0.10 -w1m -i1 -t30 | grep --color=auto '0.0-3'
+[root@localhost ~]#
+[root@localhost ~]#
+Ethernet port 5 rate£º936Mbits/sec PASS
+########################################## SSD Check ##########################################
+lspci
+00:00.0 Host bridge: Intel Corporation 3rd Gen Core processor DRAM Controller (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller (rev 04)
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+00:1a.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #2 (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 7 Series/C216 Chipset Family PCI Express Root Port 1 (rev c4)
+00:1c.1 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 2 (rev c4)
+00:1d.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #1 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation QM77 Express Chipset LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 7 Series Chipset Family 6-port SATA Control
+SSD Module Recognition PASS
+ler [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 7 Series/C216 Chipset Family SMBus Controller (rev 04)
+01:00.0 Communication controller: Xilinx Corporation Device 7011
+02:00.0 Ethernet controller: Intel Corporation I210 Gigabit Backplane Connection (rev 03)
+[root@localhost ~]#fdisk -l | grep -c sda
+8
+[root@localhost ~]#
+df | grep -c sda
+4
+[root@localhost ~]#
+fdisk -l | grep sda
+Disk /dev/[01;31m[Ksda[m[K: 992.2 GB, 992203333632 bytes, 1937897136 sectors
+/dev/[01;31m[Ksda[m[K1   *        2048     1026047      512000   83  Linux
+/dev/[01;31m[Ksda[m[K2         1026048   210741247   104857600   83  Linux
+/dev/[01;31m[Ksda[m[K3       210741248   252684287    20971520   83  Linux
+/dev/[01;31m[Ksda[m[K4       252684288  1937895423   842605568    5  Extended
+/dev/[01;31m[Ksda[m[K5       252686336   286240767    16777216   82  Linux swap / Solaris
+/dev/[01;31m[Ksda[m[K6       286242816   287266815      512000    6  FAT16
+/dev/[01;31m[Ksda[m[K7       287268864  1937895423   825313280   8e  Linux LVM
+[root@localhost ~]#
+SSD-1 size=992.2GB PASS
+fdisk -l | grep sdb
+Disk /dev/[01;31m[Ksdb[m[K: 992.2 GB, 992203333632 bytes, 1937897136 sectors
+[root@localhost ~]#
+SSD-2 size=992.2GB PASS
+dd bs=16M count=1024 if=/dev/zero of=test conv=fdatasync
+
+
+
+
+
+
+
+
+
+
+1024+0 records in
+1024+0 records out
+17179869184 bytes (17 GB) copied, 41.2632 s, 416 MB/s
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+dd bs=16M if=test of=/dev/null
+
+
+
+
+
+
+
+
+
+
+1024+0 records in
+1024+0 records out
+17179869184 bytes (17 GB) copied, 39.8671 s, 431 MB/s
+[root@localhost ~]#
+
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#rm -rf test
+
+SSD Read Rate£º431MB/s PASS
+SSD Write Rate£º416MB/s PASS
+########################################### USB Check ###########################################

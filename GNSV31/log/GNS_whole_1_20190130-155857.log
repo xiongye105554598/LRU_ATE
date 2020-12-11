@@ -1,0 +1,66 @@
+############################################# Login #############################################
+Last login: Wed Jan 30 15:57:05 2019 from 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+cd /root/software/gns_test/
+-bash: cd: /root/software/gns_test/: No such file or directory
+[root@localhost ~]#
+chmod +x *
+[root@localhost ~]#
+./install_sysstat.sh
+-bash: ./install_sysstat.sh: No such file or directory
+[root@localhost ~]#
+\cp -f kcpu /sbin
+cp: cannot stat ¡®kcpu¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f iozone /sbin
+cp: cannot stat ¡®iozone¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f nmon /sbin
+cp: cannot stat ¡®nmon¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f iperf /sbin
+cp: cannot stat ¡®iperf¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f cpulimit /sbin
+cp: cannot stat ¡®cpulimit¡¯: No such file or directory
+[root@localhost ~]#
+\cp -f run_kcpu.sh /sbin
+cp: cannot stat ¡®run_kcpu.sh¡¯: No such file or directory
+[root@localhost ~]#
+cd 429
+-bash: cd: 429: No such file or directory
+[root@localhost ~]#
+\cp -f * /sbin
+cp: omitting directory ¡®software¡¯
+[root@localhost ~]#
+cd /
+[root@localhost /]#
+######################################### Version Check #########################################
+vershow&
+[1] 25730
+[root@localhost /]#underlying version:r14743
+
+Config version:def-r14743-0
+
+docker version:18.06.1-ce
+
+nginx version:
+
+Error: No such container: ifw
+nodejs version:
+
+Error: No such container: mongo
+mongodb version:
+
+
+[1]+  Done                    vershow
+[root@localhost /]#
+[root@localhost /]#
+Software Version£ºr14743,PASS
+fpga_version
+FPGA version:V1.8
+[root@localhost /]#
+ÄÚÈÝ·µ»Ø´íÎó
+ÄÚÈÝ·µ»Ø´íÎó

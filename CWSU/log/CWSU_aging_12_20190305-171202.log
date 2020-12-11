@@ -1,0 +1,89 @@
+localhost> man
+Please verify your identity(Enter)
+Please input passwd:
+localhost(management)# rootprivilege
+localhost(privilege)# _admin_shell_
+Please input passwd:
+~ # sed -n '1,3p' /sbin/PRODUCT_MESSAGE &
+~ # PRODUCT_MODEL:CWSU1.0
+SN_VERSION:051705180001
+PN_VERSION:9010100014
+
+[1]+  Done                       sed -n "1,3p" /sbin/PRODUCT_MESSAGE
+~ # 
+~ # swv_read
+software version : REL-1.00B004
+~ # spn_read
+software part number:5010000017
+~ # mod_read
+Mod number: NA
+~ # board_pn_read
+Board_Product_Number:3010100032
+~ # vershow &
+~ # 
+~ # 
+~ # BOOT_VERSION:r16566
+
+the version is normal!
+
+System kernel version info:
+Name:cwsu-kernel
+KERNEL_VERSION:r968
+CreateTime:20190305132504
+
+System Devicetree version info:
+Name:cwsu-devicetree
+DEVICETREE_VERSION:r968
+CreateTime:20190305132633
+
+System Ramfs version info:
+Name:cwsu-system
+RAMFS_VERSION:r968
+CreateTime:20190305132846
+
+App SW version info:
+Name:CWSU1.0
+APPLICATION_VERSION:r968
+CreateTime:20190305133408
+
+App backup SW version info:
+Name:CWSU1.0
+APPLICATION_BACKUP_VERSION:r968
+CreateTime:20190305133408
+
+Config version info:
+Name:CWSU1.0
+CONFIG_VERSION:def-r968-0
+CreateTime:20190305142357
+
+Config backup version info:
+Name:CWSU1.0
+CONFIG_BACKUP_VERSION:def-r968-0
+CreateTime:19700101081012
+
+
+
+fscon custom version:
+Name:cwsu
+Custom_Config_version:sv-968-0
+CreateTime:20190305133409
+Application_current_version:Application_Backup_Version
+Config_current_version:Custom_config
+
+[1]+  Done                       vershow
+~ # 
+~ # ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+eth0.100  Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+eth0.100:0 Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+eth0.1:1  Link encap:Ethernet  HWaddr 5C:E0:CA:50:00:21  
+~ # sntp -s 192.168.1.10 
+ 1 Jan 08:28:10 sntp[31380]: Started sntp
+1970-01-01 08:28:10.761679 (-0800) +1551775583.9 +/- 10.016235 secs
+~ # date
+Tue Mar  5 17:14:44 CST 2019
+~ # tmp_get
+53
+~ # 

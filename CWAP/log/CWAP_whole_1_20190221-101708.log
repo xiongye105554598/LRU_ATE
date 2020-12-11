@@ -1,0 +1,42 @@
+############################################# Login #############################################
+localhost> man
+Please verify your identity(Enter)
+
+Please input passwd:
+
+localhost(management)# 
+rootprivilege
+localhost(privilege)# 
+_admin_shell_
+Please input passwd:
+
+
+
+BusyBox v1.18.4 (2018-06-14 09:55:41 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # 
+############################################# Version Check #############################################
+sed -n '1,12p' /sbin/PRODUCT_MESSAGE &
+~ # PRODUCT_MODEL:CWAP3.0
+SN_VERSION:011704170002
+PN_VERSION:9010100003
+CPLD_VERSION:0x00000300
+BOOT_VERSION:(FT100AV31) (Build time: 20190128 - 14:10)
+KERNEL_VERSION:r14741
+APPLICATION_VERSION:r14741
+APPLICATION_BACKUP_VERSION:r14741
+CONFIG_VERSION:def-r14741-0
+CONFIG_BACKUP_VERSION:def-r14741-0
+Custom_Config_version:def-14741-0
+MacAddr:5C:E0:CA:10:27:01
+
+
+[1]+  Done                       sed -n "1,12p" /sbin/PRODUCT_MESSAGE
+~ # 
+~ # 
+swv_read
+software version:REL-2.00B003
+~ # 
+ÄÚÈÝ·µ»Ø´íÎó
+ÄÚÈÝ·µ»Ø´íÎó

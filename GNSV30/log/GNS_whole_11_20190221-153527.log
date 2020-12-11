@@ -1,0 +1,642 @@
+############################################# Login #############################################
+Last login: Mon Nov 28 05:00:33 2011 from 10.255.250.6
+[root@feitian ~]# 
+[root@feitian ~]# 
+[root@feitian ~]# 
+cd /root/software/gns_test/
+[root@feitian gns_test]# 
+chmod +x *
+[root@feitian gns_test]# 
+./install_sysstat.sh
+tar: sysstat-10.1.1/cifsiostat.c: time stamp 2012-07-25 03:48:20 is 20731274.598963464 s in the future
+tar: sysstat-10.1.1/FAQ: time stamp 2012-07-22 03:44:34 is 20471848.597979121 s in the future
+tar: sysstat-10.1.1/ioconf.h: time stamp 2012-07-25 03:48:19 is 20731273.59751314 s in the future
+tar: sysstat-10.1.1/nfsiostat.c: time stamp 2012-07-25 03:48:20 is 20731274.597049604 s in the future
+tar: sysstat-10.1.1/rd_stats.h: time stamp 2012-07-25 03:48:20 is 20731274.596551286 s in the future
+tar: sysstat-10.1.1/common.h: time stamp 2012-07-25 03:48:19 is 20731273.595946181 s in the future
+tar: sysstat-10.1.1/mpstat.h: time stamp 2012-07-25 03:48:19 is 20731273.595398346 s in the future
+tar: sysstat-10.1.1/rndr_stats.h: time stamp 2012-07-25 03:48:20 is 20731274.594986422 s in the future
+tar: sysstat-10.1.1/contrib/isag: time stamp 2012-07-25 04:01:53 is 20732087.594045381 s in the future
+tar: sysstat-10.1.1/format.c: time stamp 2012-07-25 03:48:19 is 20731273.593279431 s in the future
+tar: sysstat-10.1.1/sa.h: time stamp 2012-07-25 03:48:19 is 20731273.592773082 s in the future
+tar: sysstat-10.1.1/sa1.in: time stamp 2012-05-13 21:00:56 is 14486030.592342999 s in the future
+tar: sysstat-10.1.1/sadf.h: time stamp 2012-07-25 03:48:19 is 20731273.591930447 s in the future
+tar: sysstat-10.1.1/xml_stats.c: time stamp 2012-07-25 03:48:20 is 20731274.590831913 s in the future
+tar: sysstat-10.1.1/CHANGES: time stamp 2012-07-25 03:43:47 is 20731001.588105519 s in the future
+tar: sysstat-10.1.1/build/collect-all: time stamp 2012-05-11 03:49:47 is 14251361.587694014 s in the future
+tar: sysstat-10.1.1/build/stripping: time stamp 2012-01-02 21:46:19 is 3083953.586223087 s in the future
+tar: sysstat-10.1.1/build: time stamp 2012-05-11 03:49:47 is 14251361.585137963 s in the future
+tar: sysstat-10.1.1/iostat.h: time stamp 2012-07-25 03:48:19 is 20731273.584737633 s in the future
+tar: sysstat-10.1.1/iconfig: time stamp 2012-05-11 03:56:59 is 14251793.584527131 s in the future
+tar: sysstat-10.1.1/sadc.c: time stamp 2012-07-25 03:48:19 is 20731273.58425056 s in the future
+tar: sysstat-10.1.1/cifsiostat.h: time stamp 2012-07-25 03:48:20 is 20731274.584032795 s in the future
+tar: sysstat-10.1.1/cron: time stamp 2012-07-25 04:01:53 is 20732087.583422242 s in the future
+tar: sysstat-10.1.1/json_stats.h: time stamp 2012-07-25 03:48:20 is 20731274.583213836 s in the future
+tar: sysstat-10.1.1/sa_wrap.c: time stamp 2012-07-25 03:48:20 is 20731274.582948299 s in the future
+tar: sysstat-10.1.1/nls/uk.po: time stamp 2012-05-18 17:47:01 is 14906395.581126699 s in the future
+tar: sysstat-10.1.1/nls/da.po: time stamp 2012-05-18 16:12:01 is 14900695.579347981 s in the future
+tar: sysstat-10.1.1/nls/de.po: time stamp 2012-05-19 04:02:01 is 14943295.578570997 s in the future
+tar: sysstat-10.1.1/nls/ru.po: time stamp 2012-05-19 20:02:02 is 15000896.57825294 s in the future
+tar: sysstat-10.1.1/nls/nl.po: time stamp 2012-05-23 04:42:03 is 15291297.576666495 s in the future
+tar: sysstat-10.1.1/nls/eo.po: time stamp 2012-05-19 00:07:02 is 14929196.575937282 s in the future
+tar: sysstat-10.1.1/nls/sk.po: time stamp 2012-05-20 21:47:02 is 15093596.575191517 s in the future
+tar: sysstat-10.1.1/nls/zh_CN.po: time stamp 2012-03-14 18:17:03 is 9292197.574707237 s in the future
+tar: sysstat-10.1.1/nls/eu.po: time stamp 2012-05-19 03:02:01 is 14939695.574236996 s in the future
+tar: sysstat-10.1.1/nls/lv.po: time stamp 2012-05-23 20:27:02 is 15347996.572493269 s in the future
+tar: sysstat-10.1.1/nls/sr.po: time stamp 2012-05-25 05:02:09 is 15465303.571569618 s in the future
+tar: sysstat-10.1.1/nls/hr.po: time stamp 2012-05-26 05:32:21 is 15553515.570998665 s in the future
+tar: sysstat-10.1.1/nls/cs.po: time stamp 2011-12-01 16:57:03 is 301797.570678862 s in the future
+tar: sysstat-10.1.1/nls/vi.po: time stamp 2012-05-18 15:42:07 is 14898901.569958449 s in the future
+tar: sysstat-10.1.1/nls/fi.po: time stamp 2012-05-18 20:12:01 is 14915095.569083408 s in the future
+tar: sysstat-10.1.1/nls/sysstat.pot: time stamp 2012-07-25 03:50:52 is 20731426.568634608 s in the future
+tar: sysstat-10.1.1/nls/id.po: time stamp 2012-05-18 16:42:01 is 14902495.567608569 s in the future
+tar: sysstat-10.1.1/nls: time stamp 2012-05-26 05:32:23 is 15553517.567511979 s in the future
+tar: sysstat-10.1.1/json_stats.c: time stamp 2012-07-25 03:48:20 is 20731274.565639604 s in the future
+tar: sysstat-10.1.1/sysstat-10.1.1.lsm: time stamp 2012-07-25 03:57:45 is 20731839.565123337 s in the future
+tar: sysstat-10.1.1/configure: time stamp 2012-06-25 19:47:32 is 18196826.525215329 s in the future
+tar: sysstat-10.1.1/sysstat-10.1.1.spec: time stamp 2012-07-25 03:43:57 is 20731011.524644586 s in the future
+tar: sysstat-10.1.1/xml/sysstat.xsd: time stamp 2012-05-08 20:01:41 is 14050475.524140611 s in the future
+tar: sysstat-10.1.1/xml: time stamp 2012-05-08 20:01:41 is 14050475.524048142 s in the future
+tar: sysstat-10.1.1/common.c: time stamp 2012-07-25 03:48:19 is 20731273.523766821 s in the future
+tar: sysstat-10.1.1/Makefile.in: time stamp 2012-01-02 21:36:00 is 3083334.523147119 s in the future
+tar: sysstat-10.1.1/pidstat.h: time stamp 2012-07-25 03:48:19 is 20731273.522941437 s in the future
+tar: sysstat-10.1.1/rndr_stats.c: time stamp 2012-07-25 03:48:20 is 20731274.519931138 s in the future
+tar: sysstat-10.1.1/xml_stats.h: time stamp 2012-07-25 03:48:20 is 20731274.519411449 s in the future
+tar: sysstat-10.1.1/sadf.c: time stamp 2012-07-25 03:48:19 is 20731273.51883861 s in the future
+tar: sysstat-10.1.1/sa_common.c: time stamp 2012-07-25 03:48:19 is 20731273.51700381 s in the future
+tar: sysstat-10.1.1/rd_stats.c: time stamp 2012-07-25 03:48:20 is 20731274.515192895 s in the future
+tar: sysstat-10.1.1/nfsiostat.h: time stamp 2012-07-25 03:48:20 is 20731274.514739625 s in the future
+tar: sysstat-10.1.1/pr_stats.c: time stamp 2012-07-25 03:48:20 is 20731274.512950012 s in the future
+tar: sysstat-10.1.1/mpstat.c: time stamp 2012-07-25 03:48:19 is 20731273.511926069 s in the future
+tar: sysstat-10.1.1/sysstat.sysconfig.in: time stamp 2012-05-13 21:00:39 is 14486013.511377187 s in the future
+tar: sysstat-10.1.1/version.in: time stamp 2012-07-25 03:48:19 is 20731273.510987193 s in the future
+tar: sysstat-10.1.1/rd_sensors.h: time stamp 2012-07-25 03:48:20 is 20731274.510584907 s in the future
+tar: sysstat-10.1.1/pidstat.c: time stamp 2012-07-25 03:48:19 is 20731273.509381263 s in the future
+tar: sysstat-10.1.1/CREDITS: time stamp 2012-05-08 21:04:06 is 14054220.508926316 s in the future
+tar: sysstat-10.1.1/man/iostat.in: time stamp 2012-07-14 03:40:54 is 19780428.508443713 s in the future
+tar: sysstat-10.1.1/man/sadc.in: time stamp 2012-07-13 15:06:43 is 19735177.508039891 s in the future
+tar: sysstat-10.1.1/man/sa1.in: time stamp 2012-02-08 14:51:59 is 6255893.507624126 s in the future
+tar: sysstat-10.1.1/man/nfsiostat.in: time stamp 2012-07-13 14:48:55 is 19734109.507203541 s in the future
+tar: sysstat-10.1.1/man/sar.in: time stamp 2012-07-22 03:25:26 is 20470700.506612894 s in the future
+tar: sysstat-10.1.1/man/cifsiostat.in: time stamp 2012-07-13 03:18:55 is 19692709.506201668 s in the future
+tar: sysstat-10.1.1/man/pidstat.1: time stamp 2012-07-13 15:47:10 is 19737604.505628551 s in the future
+tar: sysstat-10.1.1/man/mpstat.1: time stamp 2012-07-13 14:47:44 is 19734038.505227033 s in the future
+tar: sysstat-10.1.1/man/sadf.in: time stamp 2012-07-22 03:25:03 is 20470677.504800512 s in the future
+tar: sysstat-10.1.1/man: time stamp 2012-07-25 04:01:53 is 20732087.504387401 s in the future
+tar: sysstat-10.1.1/sadf_misc.c: time stamp 2012-07-25 03:48:19 is 20731273.503929033 s in the future
+tar: sysstat-10.1.1/ioconf.c: time stamp 2012-07-25 03:48:19 is 20731273.50345949 s in the future
+tar: sysstat-10.1.1/pr_stats.h: time stamp 2012-07-25 03:48:20 is 20731274.503044353 s in the future
+tar: sysstat-10.1.1/configure.in: time stamp 2012-06-25 19:47:28 is 18196822.502569363 s in the future
+tar: sysstat-10.1.1/activity.c: time stamp 2012-07-25 03:48:19 is 20731273.502077191 s in the future
+tar: sysstat-10.1.1/sar.c: time stamp 2012-07-25 03:48:19 is 20731273.501542696 s in the future
+tar: sysstat-10.1.1/iostat.c: time stamp 2012-07-25 03:48:19 is 20731273.499967426 s in the future
+tar: sysstat-10.1.1/rd_sensors.c: time stamp 2012-07-25 03:48:20 is 20731274.499486848 s in the future
+tar: sysstat-10.1.1/sa2.in: time stamp 2012-03-15 23:48:56 is 9398510.499140854 s in the future
+tar: sysstat-10.1.1: time stamp 2012-07-25 04:01:53 is 20732087.498994606 s in the future
+.
+Check programs:
+.
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... 
+yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether ln -s works... yes
+checking for chmod... chmod
+checking for chown... chown
+checking for ar... ar
+checking for install... install
+checking for msgfmt... msgfmt
+checking for xgettext... xgettext
+checking for msgmerge... msgmerge
+checking for bzip2... bzip2
+checking for cp... /bin/cp
+checking for chkconfig... /sbin/chkconfig
+.
+Check header files:
+.
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking libintl.h usability... 
+yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking for sys/stat.h... (cached) yes
+.
+Check typedefs, structures and compiler characteristics:
+.
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for off_t... yes
+.
+Check library functions:
+.
+checking for strchr... yes
+checking for strcspn... 
+yes
+checking for strspn... yes
+checking for strstr... yes
+checking for sensors support... yes
+checking for sensors_get_detected_chips in -lsensors... no
+checking for sensors lib... no
+.
+Check system services:
+.
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+.
+Check configuration:
+.
+checking run-commands directory... /etc/rc.d
+checking sadc directory... /usr/local/lib/sa
+checking system activity directory... /var/log/sa
+checking sysstat configuration directory... /etc/sysconfig
+checking National Language Support... yes
+checking whether sa2 should process data file of the day before... no
+checking number of daily data files to keep... 7
+checking number of days after which data files are compressed... 10
+checking group for manual pages... man
+checking whether man_group variable should be ignored... no
+checking whether manual pages should be compressed... no
+checking whether isag script should be installed... no
+checking whether system activity directory should be cleaned... no
+checking whether cron should start sar automatically... no
+checking whether documentation should be installed... yes
+checking whether object files should be stripped... yes
+.
+Now create files:
+.
+configure: creating ./config.status
+config.status: creating sa1
+config.status: creating sa2
+config.status: creating cron/crontab
+config.status: creating sysstat.sysconfig
+config.status: creating version.h
+config.status: creating sysconfig.h
+config.status: creating cron/sysstat.cron.daily
+config.status: creating cron/sysstat.cron.hourly
+config.status: creating cron/sysstat.crond
+config.status: creating cron/sysstat.crond.sample.in
+config.status: creating sysstat
+config.status: creating man/sa1.8
+config.status: creating man/sa2.8
+config.status: creating man/sadc.8
+config.status: creating man/sadf.1
+config.status: creating man/sar.1
+config.status: creating man/sysstat.5
+config.status: creating man/iostat.1
+config.status: creating man/cifsiostat.1
+config.status: creating man/nfsiostat.1
+config.status: creating contrib/isag/isag
+
+config.status: creating Makefile
+
+   Sysstat version:		10.1.1
+   Installation prefix:		/usr/local
+   rc directory:		/etc/rc.d
+   Init directory:		/etc/rc.d/init.d
+   Configuration directory:	/etc/sysconfig
+   Man pages directory:		${datarootdir}/man
+   Compiler:			gcc
+   Compiler flags:		-g -O2
+
+make: Warning: File `sadc.c' has modification time 2.1e+07 s in the future
+gcc -o sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadc.c
+gcc -o act_sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADC  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o sa_wrap.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_wrap.c
+gcc -o sa_common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_common.c
+
+gcc -o rd_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_stats.c
+
+ar rv librdstats.a rd_stats.o
+
+r - rd_stats.o
+gcc -o rd_sensors.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_sensors.c
+ar rv librdsensors.a rd_sensors.o
+r - rd_sensors.o
+gcc -o common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" common.c
+gcc -o ioconf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" ioconf.c
+ar rvs libsyscom.a common.o ioconf.o
+r - common.o
+r - ioconf.o
+gcc -o sadc -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadc.o act_sadc.o sa_wrap.o sa_common.o librdstats.a librdsensors.a libsyscom.a -s 
+gcc -o sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sar.c
+
+gcc -o act_sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SAR  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o pr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pr_stats.c
+
+gcc -o sar -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sar.o act_sar.o sa_common.o pr_stats.o libsyscom.a -s
+gcc -o sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf.c
+
+gcc -o act_sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADF  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o format.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" format.c
+gcc -o sadf_misc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf_misc.c
+gcc -o rndr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rndr_stats.c
+
+gcc -o xml_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" xml_stats.c
+
+gcc -o json_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" json_stats.c
+
+gcc -o sadf -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadf.o act_sadf.o format.o sadf_misc.o rndr_stats.o xml_stats.o json_stats.o sa_common.o libsyscom.a -s
+
+gcc -o iostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" iostat.c
+gcc -o iostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 iostat.o librdstats.a libsyscom.a -s
+gcc -o mpstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" mpstat.c
+
+gcc -o mpstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 mpstat.o librdstats.a libsyscom.a -s
+gcc -o pidstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pidstat.c
+
+gcc -o pidstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 pidstat.o librdstats.a libsyscom.a -s
+gcc -o nfsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" nfsiostat.c
+gcc -o nfsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 nfsiostat.o librdstats.a libsyscom.a -s
+gcc -o cifsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" cifsiostat.c
+
+gcc -o cifsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 cifsiostat.o librdstats.a libsyscom.a -s
+msgfmt -o nls/cs.gmo nls/cs.po
+msgfmt -o nls/da.gmo nls/da.po
+msgfmt -o nls/de.gmo nls/de.po
+msgfmt -o nls/eo.gmo nls/eo.po
+msgfmt -o nls/eu.gmo nls/eu.po
+msgfmt -o nls/fi.gmo nls/fi.po
+msgfmt -o nls/hr.gmo nls/hr.po
+msgfmt -o nls/id.gmo nls/id.po
+msgfmt -o nls/lv.gmo nls/lv.po
+msgfmt -o nls/nl.gmo nls/nl.po
+msgfmt -o nls/ru.gmo nls/ru.po
+msgfmt -o nls/sk.gmo nls/sk.po
+msgfmt -o nls/sr.gmo nls/sr.po
+msgfmt -o nls/uk.gmo nls/uk.po
+msgfmt -o nls/vi.gmo nls/vi.po
+msgfmt -o nls/zh_CN.gmo nls/zh_CN.po
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Warning: File `sadc.c' has modification time 2.1e+07 s in the future
+gcc -o sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadc.c
+gcc -o act_sadc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADC  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+
+gcc -o sa_wrap.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_wrap.c
+gcc -o sa_common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sa_common.c
+
+gcc -o rd_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_stats.c
+
+ar rv librdstats.a rd_stats.o
+r - rd_stats.o
+gcc -o rd_sensors.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rd_sensors.c
+ar rv librdsensors.a rd_sensors.o
+r - rd_sensors.o
+gcc -o common.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" common.c
+gcc -o ioconf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" ioconf.c
+
+ar rvs libsyscom.a common.o ioconf.o
+r - common.o
+r - ioconf.o
+gcc -o sadc -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadc.o act_sadc.o sa_wrap.o sa_common.o librdstats.a librdsensors.a libsyscom.a -s 
+gcc -o sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sar.c
+gcc -o act_sar.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SAR  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o pr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pr_stats.c
+
+gcc -o sar -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sar.o act_sar.o sa_common.o pr_stats.o libsyscom.a -s
+
+gcc -o sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf.c
+gcc -o act_sadf.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2 -DSOURCE_SADF  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" activity.c
+gcc -o format.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" format.c
+gcc -o sadf_misc.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" sadf_misc.c
+gcc -o rndr_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" rndr_stats.c
+
+gcc -o xml_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" xml_stats.c
+
+gcc -o json_stats.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" json_stats.c
+
+gcc -o sadf -g -O2 -Wall -Wstrict-prototypes -pipe -O2 sadf.o act_sadf.o format.o sadf_misc.o rndr_stats.o xml_stats.o json_stats.o sa_common.o libsyscom.a -s
+
+gcc -o iostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" iostat.c
+gcc -o iostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 iostat.o librdstats.a libsyscom.a -s
+gcc -o mpstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" mpstat.c
+
+gcc -o mpstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 mpstat.o librdstats.a libsyscom.a -s
+gcc -o pidstat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" pidstat.c
+
+gcc -o pidstat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 pidstat.o librdstats.a libsyscom.a -s
+gcc -o nfsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" nfsiostat.c
+gcc -o nfsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 nfsiostat.o librdstats.a libsyscom.a -s
+gcc -o cifsiostat.o -c -g -O2 -Wall -Wstrict-prototypes -pipe -O2  -DSA_DIR=\"/var/log/sa\" -DSADC_PATH=\"/usr/local/lib/sa/sadc\"  -DUSE_NLS -DPACKAGE=\"sysstat\" -DLOCALEDIR=\"/usr/local/share/locale\" cifsiostat.c
+
+gcc -o cifsiostat -g -O2 -Wall -Wstrict-prototypes -pipe -O2 cifsiostat.o librdstats.a libsyscom.a -s
+msgfmt -o nls/cs.gmo nls/cs.po
+msgfmt -o nls/da.gmo nls/da.po
+msgfmt -o nls/de.gmo nls/de.po
+msgfmt -o nls/eo.gmo nls/eo.po
+msgfmt -o nls/eu.gmo nls/eu.po
+msgfmt -o nls/fi.gmo nls/fi.po
+msgfmt -o nls/hr.gmo nls/hr.po
+msgfmt -o nls/id.gmo nls/id.po
+msgfmt -o nls/lv.gmo nls/lv.po
+msgfmt -o nls/nl.gmo nls/nl.po
+msgfmt -o nls/ru.gmo nls/ru.po
+msgfmt -o nls/sk.gmo nls/sk.po
+msgfmt -o nls/sr.gmo nls/sr.po
+msgfmt -o nls/uk.gmo nls/uk.po
+msgfmt -o nls/vi.gmo nls/vi.po
+msgfmt -o nls/zh_CN.gmo nls/zh_CN.po
+mkdir -p /usr/local/share/man/man1
+mkdir -p /usr/local/share/man/man5
+mkdir -p /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sa1.8*
+install -m 644 -g man man/sa1.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sa2.8*
+install -m 644 -g man man/sa2.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man8/sadc.8*
+install -m 644 -g man man/sadc.8 /usr/local/share/man/man8
+rm -f /usr/local/share/man/man1/sar.1*
+install -m 644 -g man man/sar.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/sadf.1*
+install -m 644 -g man man/sadf.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man5/sysstat.5*
+install -m 644 -g man man/sysstat.5 /usr/local/share/man/man5
+rm -f /usr/local/share/man/man1/iostat.1*
+install -m 644 -g man man/iostat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/mpstat.1*
+install -m 644 -g man man/mpstat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/pidstat.1*
+install -m 644 -g man man/pidstat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/nfsiostat.1*
+install -m 644 -g man man/nfsiostat.1 /usr/local/share/man/man1
+rm -f /usr/local/share/man/man1/cifsiostat.1*
+install -m 644 -g man man/cifsiostat.1 /usr/local/share/man/man1
+catalogs='nls/af.gmo nls/cs.gmo nls/da.gmo nls/de.gmo nls/eo.gmo nls/es.gmo nls/eu.gmo nls/fi.gmo nls/fr.gmo nls/hr.gmo nls/id.gmo nls/it.gmo nls/ja.gmo nls/ky.gmo nls/lv.gmo nls/mt.gmo nls/nb.gmo nls/nl.gmo nls/nn.gmo nls/pl.gmo nls/pt_BR.gmo nls/pt.gmo nls/ro.gmo nls/ru.gmo nls/sk.gmo nls/sr.gmo nls/sv.gmo nls/uk.gmo nls/vi.gmo nls/zh_CN.gmo nls/zh_TW.gmo'; \
+	for c in $catalogs; do \
+		c=`basename $c`; \
+		c=`echo $c | sed 's/\.gmo$//'`; \
+		mkdir -p /usr/local/share/locale/$c/LC_MESSAGES; \
+		echo "NLS: Installing $c file..." ; \
+		install -m 644 nls/$c.gmo /usr/local/share/locale/$c/LC_MESSAGES/sysstat.mo; \
+	done
+NLS: Installing af file...
+NLS: Installing cs file...
+NLS: Installing da file...
+NLS: Installing de file...
+NLS: Installing eo file...
+NLS: Installing es file...
+NLS: Installing eu file...
+NLS: Installing fi file...
+NLS: Installing fr file...
+NLS: Installing hr file...
+NLS: Installing id file...
+NLS: Installing it file...
+NLS: Installing ja file...
+NLS: Installing ky file...
+NLS: Installing lv file...
+NLS: Installing mt file...
+NLS: Installing nb file...
+NLS: Installing nl file...
+NLS: Installing nn file...
+NLS: Installing pl file...
+NLS: Installing pt_BR file...
+NLS: Installing pt file...
+NLS: Installing ro file...
+NLS: Installing ru file...
+NLS: Installing sk file...
+NLS: Installing sr file...
+NLS: Installing sv file...
+NLS: Installing uk file...
+NLS: Installing vi file...
+NLS: Installing zh_CN file...
+NLS: Installing zh_TW file...
+mkdir -p /usr/local/lib/sa
+mkdir -p /var/log/sa
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/share/doc/sysstat-10.1.1
+mkdir -p /etc/sysconfig
+install -m 755 sa1 /usr/local/lib/sa
+install -m 755 sa2 /usr/local/lib/sa
+install -m 755 sadc /usr/local/lib/sa
+install -m 755 sar /usr/local/bin
+install -m 755 sadf /usr/local/bin
+install -m 755 iostat /usr/local/bin
+install -m 755 mpstat /usr/local/bin
+install -m 755 pidstat /usr/local/bin
+install -m 755 nfsiostat /usr/local/bin
+install -m 755 cifsiostat /usr/local/bin
+install -m 644 sysstat.ioconf /etc/sysconfig
+install -m 644 sysstat.sysconfig /etc/sysconfig/sysstat
+install -m 644 CHANGES /usr/local/share/doc/sysstat-10.1.1
+install -m 644 COPYING /usr/local/share/doc/sysstat-10.1.1
+install -m 644 CREDITS /usr/local/share/doc/sysstat-10.1.1
+install -m 644 README /usr/local/share/doc/sysstat-10.1.1
+install -m 644 FAQ /usr/local/share/doc/sysstat-10.1.1
+install -m 644 *.lsm /usr/local/share/doc/sysstat-10.1.1
+make: warning:  Clock skew detected.  Your build may be incomplete.
+[root@feitian gns_test]# 
+\cp -f kcpu /sbin
+[root@feitian gns_test]# 
+\cp -f iozone /sbin
+[root@feitian gns_test]# 
+\cp -f nmon /sbin
+[root@feitian gns_test]# 
+\cp -f iperf /sbin
+[root@feitian gns_test]# 
+\cp -f cpulimit /sbin
+[root@feitian gns_test]# 
+\cp -f run_kcpu.sh /sbin
+[root@feitian gns_test]# 
+cd 429
+[root@feitian 429]# 
+\cp -f * /sbin
+[root@feitian 429]# 
+cd /
+[root@feitian /]# 
+############################################# Version Check #############################################
+vershow&
+[1] 32053
+[root@feitian /]# underlying version:r14753
+
+Config version:def-r14753-0
+
+docker version:1.7.1
+
+nginx version:
+
+Error response from daemon: no such id: ifw
+nodejs version:
+
+Error response from daemon: no such id: mongo
+mongodb version:
+
+
+[1]+  Done                    vershow
+[root@feitian /]# 
+[root@feitian /]# 
+Software Version£∫r14753,PASS
+fpga_version
+FPGA version:V1.7
+[root@feitian /]# 
+FPGA£∫V1.7,PASS
+swv_read
+software version :REL-1.00B007
+[root@feitian /]# 
+SWV£∫REL-1.00B007,PASS
+mod_read
+Mod number:B
+[root@feitian /]# 
+MOD£∫B,PASS
+spn_read
+software part number:5010000002
+[root@feitian /]# 
+SPN£∫5010000002,PASS
+dpn_read
+PN_VERSION:9010100001
+[root@feitian /]# 
+DPN£∫9010100001,PASS
+board_pn_read
+Board_Product_Number:3010100023
+[root@feitian /]# 
+BPN£∫3010100023,PASS
+fpgapn_read
+fpga part number:5010000007
+[root@feitian /]# 
+FPGA PN£∫5010000007,PASS
+isopn_read
+iso part number:5010000013
+[root@feitian /]# 
+ISO PN£∫5010000013,PASS
+uname -a
+Linux feitian 3.10.5-3.el6.x86_64 #1 SMP Tue Aug 20 14:10:49 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+[root@feitian /]# 
+System Version£∫3.10.5-3.el6.x86_64,PASS
+dsn_read
+SN_VERSION:031808090005
+[root@feitian /]# 
+board_sn_read
+Board_Serial_Number:011807030003
+[root@feitian /]# 
+########################################### MAC Check ###########################################
+ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+eth0.10:1 Link encap:Ethernet  HWaddr 5C:E0:CA:30:01:0C  
+[root@feitian /]# 
+MAC PASS
+############################################# Temperature Check #############################################
+sensors -u&
+[1] 619
+[root@feitian /]# coretemp-isa-0000
+Adapter: ISA adapter
+Core 0:
+  temp2_input: 47.00
+  temp2_max: 105.00
+  temp2_crit: 105.00
+  temp2_crit_alarm: 0.00
+Core 1:
+  temp3_input: 45.00
+  temp3_max: 105.00
+  temp3_crit: 105.00
+  temp3_crit_alarm: 0.00
+
+
+
+[1]+  Done                    sensors -u
+[root@feitian /]# 
+[root@feitian /]# 
+CPU Core 0 Temperature:47.00°Ê,PASS
+CPU Core 1 Temperature:45.00°Ê,PASS
+############################################# Memory Check #############################################
+iostat -m
+Linux 3.10.5-3.el6.x86_64 (feitian) 	11/28/2011 	_x86_64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           4.75    0.00    4.35    0.08    0.00   90.82
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+sdb               0.15         0.00         0.00          0          0
+sda               7.45         0.09         0.06        112         78
+
+[root@feitian /]# 
+free | grep Mem | awk '{print $2}'
+8126588
+[root@feitian /]# 
+Memory:8126588,PASS
+############################################# NTP Check #############################################
+service ntpd stop
+Shutting down ntpd: [60G[[0;32m  OK  [0;39m]
+[root@feitian /]# 
+ntpdate 10.255.250.10 &
+[1] 1132
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+28 Nov 05:08:24 ntpdate[1132]: no server suitable for synchronization found
+
+
+[1]+  Exit 1                  ntpdate 10.255.250.10
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+
+[root@feitian /]# 
+[root@feitian /]# 
+≥¨ ±, Done ≤ªƒ‹’“µΩ
+≥¨ ±, Done ≤ªƒ‹’“µΩ

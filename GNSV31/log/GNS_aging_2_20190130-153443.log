@@ -1,0 +1,14 @@
+Last login: Wed Jan 30 15:27:44 2019 from 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#ps -A | grep -c kcpu
+4
+[root@localhost ~]#vershow | grep Config | awk '{print $2}'
+Error: No such container: ifw
+Error: No such container: mongo
+version:def-r14743-0
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#超时, # 不能找到  测试时间：0h:0m:36s

@@ -1,0 +1,291 @@
+############################################# Login #############################################
+localhost> man
+Please verify your identity(Enter)
+
+Please input passwd:
+
+localhost(management)# 
+rootprivilege
+localhost(privilege)# 
+_admin_shell_
+Please input passwd:
+
+
+
+BusyBox v1.18.4 (2018-06-14 09:55:41 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # 
+############################################# Version Check #############################################
+sed -n '1,12p' /sbin/PRODUCT_MESSAGE &
+~ # PRODUCT_MODEL:CWAP3.0
+SN_VERSION:011704170002
+PN_VERSION:9010100003
+CPLD_VERSION:0x00000300
+BOOT_VERSION:(FT100AV31) (Build time: 20190128 - 14:10)
+KERNEL_VERSION:r14741
+APPLICATION_VERSION:r14741
+APPLICATION_BACKUP_VERSION:r14741
+CONFIG_VERSION:def-r14741-0
+CONFIG_BACKUP_VERSION:def-r14741-0
+Custom_Config_version:def-14741-0
+MacAddr:5C:E0:CA:10:27:01
+
+
+[1]+  Done                       sed -n "1,12p" /sbin/PRODUCT_MESSAGE
+~ # 
+~ # 
+swv_read
+software version:REL-2.00B003
+~ # 
+spn_read
+software part number:A
+~ # 
+dpn_read
+device part number:9010100003
+~ # 
+board_pn_read
+Board_Product_Number:3010100006
+~ # 
+dsn_read
+device serial number:011704170002
+~ # 
+board_sn_read
+Board_Serial_Number:001608120014
+~ # 
+boot_read
+BOOT_VERSION:V1.0
+~ # 
+mod_read
+Mod number:0
+~ # 
+SWV£ºREL-2.00B003,PASS
+MOD£º0,PASS
+SPN£ºA,PASS
+DPN£º9010100003,PASS
+BPN£º3010100006,PASS
+BOOT£ºV1.0,PASS
+vershow&
+~ # CPLD_VERSION:0x00000300
+
+BOOT_VERSION(FT100AV31) (Build time: 20190128 - 14:10)
+
+
+System SW version info:
+Name:CWAP3.0-kernel
+KERNEL_VERSION:r14741
+CreateTime:20190128140838
+
+App SW version info:
+Name:CWAP3.0
+APPLICATION_VERSION:r14741
+CreateTime:20190128141036
+
+
+
+~ # 
+~ # 
+App backup SW version info:
+Name:CWAP3.0
+APPLICATION_BACKUP_VERSION:r14741
+CreateTime:20190128141036
+
+Config version info:
+Name:CWAP3.0
+CONFIG_VERSION:def-r14741-0
+CreateTime:19700101080728
+
+Config backup version info:
+Name:CWAP3.0
+CONFIG_BACKUP_VERSION:def-r14741-0
+CreateTime:19700101080726
+
+
+
+fscon custom version:
+Name:cwap
+Custom_Config_version:def-14741-0
+CreateTime:20190128141037
+Application_current_version:Application_Version
+Config_current_version:Custom_config
+
+
+[1]+  Done                       vershow
+~ # 
+~ # 
+########################################### MAC Check ###########################################
+ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+~ # 
+MAC PASS
+############################################# Temperature Check #############################################
+echo $((`i2cget -y 1 0x4c 0` - 64))&
+~ # 40
+
+
+[1]+  Done                       echo $(( "$(...)" - 64))
+~ # 
+~ # 
+Temperature:40¡æ,PASS
+############################################# Memory Check #############################################
+iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           8.69    0.00    9.23    0.51    0.00   81.57
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.54         0.05         0.00         76          0 
+
+~ # 
+free | grep Mem | awk '{print $2}'
+1024640
+~ # 
+Memory:1024640,PASS
+############################################# NTP Check #############################################
+sntp -s 10.90.0.10 &
+~ # 21 Feb 10:37:33 sntp[23865]: Started sntp
+2019-02-21 10:37:33.560615 (-0800) +0.0 +/- 10.015610 secs
+
+
+[1]+  Done                       sntp -s 10.90.0.10
+~ # 
+~ # 
+date
+Thu Feb 21 10:37:41 CST 2019
+~ # 
+NTP PASS
+########################################## Ethernet Front-end Ports Rate Check ##########################################
+ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.554 ms
+
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.495 ms
+
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.485 ms
+
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.496 ms
+
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.495 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3996ms
+rtt min/avg/max/mdev = 0.485/0.505/0.554/0.024 ms
+~ # 
+iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+[  3]  0.0-30.0 sec  1.74 GBytes    497 Mbits/sec
+
+
+[1]+  Done                       iperf -c 10.90.0.10 -w1m -i1 -t30 | grep "0.0-3"
+~ # 
+~ # 
+ETH0 PASS, Ethernet port rate£º497Mbits/sec
+iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'&
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+
+~ # 
+~ # 
+[  3]  0.0-30.0 sec  1.60 GBytes    459 Mbits/sec
+
+
+[1]+  Done                       iperf -c 10.90.0.10 -w1m -i1 -t30 | grep "0.0-3"
+~ # 
+~ # 
+ETH1 PASS,Ethernet port rate£º459Mbits/sec
+echo 3 >> /proc/sys/vm/drop_caches&
+~ # 
+free -m
+             total         used         free       shared      buffers
+Mem:       1024640       271776       752864            0            0
+-/+ buffers:             271776       752864
+Swap:            0            0            0
+[1]+  Done                       echo 3 1>>/proc/sys/vm/drop_caches
+~ # 
+<font size = 10>LRU Test Completed PASS</font>

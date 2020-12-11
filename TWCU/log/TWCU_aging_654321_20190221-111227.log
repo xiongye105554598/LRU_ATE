@@ -1,0 +1,14 @@
+localhost> man
+Please verify your identity(Enter)
+Please input passwd:
+localhost(management)# rootprivilege
+localhost(privilege)# _admin_shell_
+Please input passwd:
+
+
+BusyBox v1.18.4 (2018-09-25 16:31:50 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # 
+~ # 
+~ # 

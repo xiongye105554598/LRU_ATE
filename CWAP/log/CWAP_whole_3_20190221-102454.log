@@ -1,0 +1,172 @@
+############################################# Login #############################################
+localhost> man
+Please verify your identity(Enter)
+
+Please input passwd:
+
+localhost(management)# 
+rootprivilege
+localhost(privilege)# 
+_admin_shell_
+Please input passwd:
+
+
+
+BusyBox v1.18.4 (2018-06-14 09:55:41 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # 
+############################################# Version Check #############################################
+sed -n '1,12p' /sbin/PRODUCT_MESSAGE &
+~ # PRODUCT_MODEL:CWAP3.0
+SN_VERSION:011704170002
+PN_VERSION:9010100003
+CPLD_VERSION:0x00000300
+BOOT_VERSION:(FT100AV31) (Build time: 20190128 - 14:10)
+KERNEL_VERSION:r14741
+APPLICATION_VERSION:r14741
+APPLICATION_BACKUP_VERSION:r14741
+CONFIG_VERSION:def-r14741-0
+CONFIG_BACKUP_VERSION:def-r14741-0
+Custom_Config_version:def-14741-0
+MacAddr:5C:E0:CA:10:27:01
+
+
+[1]+  Done                       sed -n "1,12p" /sbin/PRODUCT_MESSAGE
+~ # 
+~ # 
+swv_read
+software version:REL-2.00B003
+~ # 
+spn_read
+software part number:A
+~ # 
+dpn_read
+device part number:9010100003
+~ # 
+board_pn_read
+Board_Product_Number:3010100006
+~ # 
+dsn_read
+device serial number:011704170002
+~ # 
+board_sn_read
+Board_Serial_Number:001608120014
+~ # 
+boot_read
+BOOT_VERSION:V1.0
+~ # 
+mod_read
+Mod number:0
+~ # 
+SWV£ºREL-2.00B003,PASS
+MOD£º0,PASS
+SPN£ºA,PASS
+DPN£º9010100003,PASS
+BPN£º3010100006,PASS
+BOOT£ºV1.0,PASS
+vershow&
+~ # CPLD_VERSION:0x00000300
+
+BOOT_VERSION(FT100AV31) (Build time: 20190128 - 14:10)
+
+
+System SW version info:
+Name:CWAP3.0-kernel
+KERNEL_VERSION:r14741
+CreateTime:20190128140838
+
+App SW version info:
+Name:CWAP3.0
+APPLICATION_VERSION:r14741
+CreateTime:20190128141036
+
+
+
+~ # 
+~ # 
+App backup SW version info:
+Name:CWAP3.0
+APPLICATION_BACKUP_VERSION:r14741
+CreateTime:20190128141036
+
+Config version info:
+Name:CWAP3.0
+CONFIG_VERSION:def-r14741-0
+CreateTime:19700101080728
+
+Config backup version info:
+Name:CWAP3.0
+CONFIG_BACKUP_VERSION:def-r14741-0
+CreateTime:19700101080726
+
+
+
+fscon custom version:
+Name:cwap
+Custom_Config_version:def-14741-0
+CreateTime:20190128141037
+Application_current_version:Application_Version
+Config_current_version:Custom_config
+
+
+[1]+  Done                       vershow
+~ # 
+~ # 
+########################################### MAC Check ###########################################
+ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:10:27:21  
+~ # 
+MAC PASS
+############################################# Temperature Check #############################################
+echo $((`i2cget -y 1 0x4c 0` - 64))&
+~ # 36
+
+
+[1]+  Done                       echo $(( "$(...)" - 64))
+~ # 
+~ # 
+Temperature:36¡æ,PASS
+############################################# Memory Check #############################################
+iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           9.08    0.00    9.82    0.52    0.00   80.58
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.55         0.05         0.00         43          0 
+
+~ # 
+free | grep Mem | awk '{print $2}'
+1024640
+~ # 
+Memory:1024640,PASS
+############################################# NTP Check #############################################
+sntp -s 10.90.0.10 &
+~ #  1 Jan 08:14:40 sntp[17168]: Started sntp
+1970-01-01 08:14:40.426678 (-0800) +1550715074.1 +/- 10.015610 secs
+
+
+[1]+  Done                       sntp -s 10.90.0.10
+~ # 
+~ # 
+date
+Thu Feb 21 10:26:03 CST 2019
+~ # 
+NTP PASS
+########################################## WIFI Module Check ##########################################
+lspci | grep -c '003c'
+1
+~ # 
+lspci | grep -c '0033'
+3
+~ # 
+lspci | grep -c '002a'
+0
+~ # 

@@ -1,0 +1,199 @@
+Last login: Wed Jan 30 15:25:56 2019 from 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#ps -A | grep -c kcpu
+0
+[root@localhost ~]#cd /sbin
+[root@localhost sbin]#./kcpu.sh start 50
+Done!
+[root@localhost sbin]#cd /
+[root@localhost /]#vershow | grep Config | awk '{print $2}'
+Error: No such container: ifw
+Error: No such container: mongo
+version:def-r14743-0
+[root@localhost /]#fpga_version&
+[1] 30046
+[root@localhost /]#FPGA version:V1.8
+
+[1]+  Done                    fpga_version
+[root@localhost /]#
+[root@localhost /]#swv_read&
+[1] 30814
+[root@localhost /]#software version :REL-1.00B001
+
+[1]+  Done                    swv_read
+[root@localhost /]#
+[root@localhost /]#spn_read&
+[1] 31581
+[root@localhost /]#software part number:501000049
+
+[1]+  Done                    spn_read
+[root@localhost /]#
+[root@localhost /]#dpn_read&
+[1] 32405
+[root@localhost /]#PN_VERSION:9010100020
+
+[1]+  Done                    dpn_read
+[root@localhost /]#
+[root@localhost /]#board_pn_read&
+[1] 1010
+[root@localhost /]#Board_Product_Number:3010100025
+
+[1]+  Done                    board_pn_read
+[root@localhost /]#
+[root@localhost /]#mod_read&
+[1] 1798
+[root@localhost /]#Mod number:NA
+
+[1]+  Done                    mod_read
+[root@localhost /]#
+[root@localhost /]#uname -a&
+[1] 2741
+[root@localhost /]#Linux localhost.localdomain 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+[1]+  Done                    uname -a
+[root@localhost /]#
+[root@localhost /]#dsn_read&
+[1] 3679
+[root@localhost /]#SN_VERSION:031812250002
+
+[1]+  Done                    dsn_read
+[root@localhost /]#
+[root@localhost /]#board_sn_read&
+[1] 4709
+[root@localhost /]#Board_Serial_Number:011601231005
+
+[1]+  Done                    board_sn_read
+[root@localhost /]#
+[root@localhost /]#fpgapn_read&
+[1] 5622
+[root@localhost /]#fpga part number:5010000007
+
+[1]+  Done                    fpgapn_read
+[root@localhost /]#
+[root@localhost /]#isopn_read&
+[1] 6518
+[root@localhost /]#iso part number:5010000013
+
+[1]+  Done                    isopn_read
+[root@localhost /]#
+[root@localhost /]#vershow&
+[1] 7223
+[root@localhost /]#underlying version:r14743
+
+Config version:def-r14743-0
+
+docker version:18.06.1-ce
+
+nginx version:
+
+Error: No such container: ifw
+nodejs version:
+
+Error: No such container: mongo
+mongodb version:
+
+[1]+  Done                    vershow
+[root@localhost /]#
+[root@localhost /]#ifconfig &
+[1] 8187
+[root@localhost /]#docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:2d:b2:ab:01  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 585015  bytes 38676980 (36.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12161294  bytes 18402245397 (17.1 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xf7c00000-f7c7ffff  
+
+eth0.1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.90.0.2  netmask 255.255.255.240  broadcast 10.90.0.15
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 585008  bytes 30486352 (29.0 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 276207  bytes 17617756297 (16.4 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.1:0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.255.250.2  netmask 255.255.255.0  broadcast 10.255.250.255
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+
+eth0.5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.91.0.1  netmask 255.255.255.240  broadcast 10.91.0.15
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50  bytes 7496 (7.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.82.0.1  netmask 255.255.252.0  broadcast 10.82.3.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 58  bytes 8567 (8.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.10:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.1  netmask 255.255.255.0  broadcast 10.0.0.255
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+
+eth0.20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.19.0.3  netmask 255.255.252.0  broadcast 172.19.3.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 199  bytes 95902 (93.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.41.0.3  netmask 255.255.255.0  broadcast 172.41.0.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1155  bytes 53870 (52.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0.30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.45.0.3  netmask 255.255.255.0  broadcast 172.45.0.255
+        inet6 fe80::2a0:c9ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 00:a0:c9:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50  bytes 7547 (7.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 29399  bytes 2276065 (2.1 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 29399  bytes 2276065 (2.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+mgmt0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.1.100  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 00:13:95:1c:0b:6b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xf7e00000-f7e20000  
+
+lsusb | grep -c '2c7c'
+1
+[1]+  Done                    if超时, #不能找到  测试时间：0h:3m:7s

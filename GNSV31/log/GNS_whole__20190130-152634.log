@@ -1,0 +1,60 @@
+############################################# Login #############################################
+Last login: Wed Jan 30 15:24:54 2019 from 10.90.0.10
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+######################################## 4G Module Check ########################################
+lsusb | grep -c '2c7c'
+1
+[root@localhost ~]#
+9b3c Module PASS
+atget simcard
+
+
+
+
+SIM check Success
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+4G Network PASS
+####################################### Temperature Check #######################################
+sensors -u&
+[1] 17813
+[root@localhost ~]#acpitz-virtual-0
+Adapter: Virtual device
+temp1:
+  temp1_input: 57.000
+  temp1_crit: 111.000
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Physical id 0:
+  temp1_input: 57.000
+  temp1_max: 87.000
+  temp1_crit: 105.000
+  temp1_crit_alarm: 0.000
+Core 0:
+  temp2_input: 57.000
+  temp2_max: 87.000
+  temp2_crit: 105.000
+  temp2_crit_alarm: 0.000
+Core 1:
+  temp3_input: 56.000
+  temp3_max: 87.000
+  temp3_crit: 105.000
+  temp3_crit_alarm: 0.000
+
+
+
+[1]+  Done                    sensors -u
+[root@localhost ~]#
+[root@localhost ~]#
+CPU Core 0 Temperature:57.000¡æ,PASS
+CPU Core 1 Temperature:56.000¡æ,PASS
+########################################## Memory Check ##########################################
+free | grep Mem | awk '{print $2}'
+16175356
+[root@localhost ~]#
+Memory:16175356,PASS
+######################################## Discrete Check ########################################

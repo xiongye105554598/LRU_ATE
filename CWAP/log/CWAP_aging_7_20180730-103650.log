@@ -1,0 +1,324 @@
+localhost> man
+Please verify your identity(Enter)
+Please input passwd:
+localhost(management)# rootprivilege
+localhost(privilege)# _admin_shell_
+Please input passwd:
+
+
+BusyBox v1.18.4 (2017-06-13 18:22:55 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # ps | grep -c cpu.sh
+1
+~ # cd /
+~ # rm -rf cpu.sh
+~ # echo 'while true;do A=A;done' >> cpu.sh
+~ # chmod +x cpu.sh
+~ # sh cpu.sh &
+~ # sed -n '1,3p' /sbin/PRODUCT_MESSAGE
+PRODUCT_MODEL:CWAP3.0
+SN_VERSION:011807190003
+PN_VERSION:9010100003
+~ # vershow
+CPLD_VERSION:0x00000300
+
+BOOT_VERSION(FT100AV31) (Build time: 20180322 - 10:25)
+
+System SW version info:
+Name:CWAP3.0-kernel
+KERNEL_VERSION:r14252
+CreateTime:2018-03-22 10:22:17
+
+
+App SW version info:
+Name:CWAP3.0
+APPLICATION_VERSION:r14252
+CreateTime:2018-03-22 10:24:37
+
+
+
+
+App backup SW version info:
+Name:CWAP3.0
+APPLICATION_BACKUP_VERSION:r14252
+CreateTime:2018-03-22 10:24:37
+
+
+Config version info:
+Name:CWAP3.0
+CONFIG_VERSION:def-r14252-0
+CreateTime:1970-01-01 08:05:41
+
+
+Config backup version info:
+Name:CWAP3.0
+CONFIG_BACKUP_VERSION:def-r14252-0
+CreateTime:1970-01-01 08:06:35
+
+
+
+Application_current_version:Application_Version
+Config_current_version:Config_Version
+~ # 
+~ # 
+~ # ifconfig | grep eth0
+eth0      Link encap:Ethernet  HWaddr 5C:E0:CA:10:2E:21  
+eth0.5    Link encap:Ethernet  HWaddr 5C:E0:CA:10:2E:21  
+eth0.10   Link encap:Ethernet  HWaddr 5C:E0:CA:10:2E:21  
+eth0.1    Link encap:Ethernet  HWaddr 5C:E0:CA:10:2E:21  
+eth0.1:0  Link encap:Ethernet  HWaddr 5C:E0:CA:10:2E:21  
+~ # echo $((`i2cget -y 1 0x4c 0` - 64))
+49
+~ # sntp -s 10.90.0.10 
+ 1 Jan 08:02:26 sntp[3426]: Started sntp
+ 1 Jan 08:02:26 sntp[3426]: kod_init_kod_db(): Cannot open KoD db file /var/db/ntp-kod
+1970-01-01 08:02:26.538467 (-0800) +1532918135.7 +/- 10.015900 secs
+~ # date
+Mon Jul 30 10:38:13 CST 2018
+~ # iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          17.88    0.00   11.35    0.13    0.00   70.63
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.01         0.00         0.00          0          0 
+mtdblock1         0.34         0.03         0.00          5          0 
+
+~ # free | grep Mem | awk '{print $2}'
+1024640
+~ # lspci | grep -c '003c'
+1
+~ # lspci | grep -c '0033'
+3
+~ # lspci | grep -c '002a'
+0
+~ # ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.485 ms
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.558 ms
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.555 ms
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.562 ms
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.483 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3998ms
+rtt min/avg/max/mdev = 0.483/0.528/0.562/0.044 ms
+~ # iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'
+
+
+
+
+[  3]  0.0-30.0 sec    901 MBytes    252 Mbits/sec
+~ # 
+~ # 
+~ # 
+~ # 
+~ # echo 3 >> /proc/sys/vm/drop_caches&
+~ # free -m
+             total         used         free       shared      buffers
+Mem:       1024640       257280       767360            0            0
+-/+ buffers:             257280       767360
+Swap:            0            0            0
+[2]+  Done                       echo 3 1>>/proc/sys/vm/drop_caches
+~ # cd /
+~ # echo $((`i2cget -y 1 0x4c 0` - 64))
+50
+~ # sntp -s 10.90.0.10 
+30 Jul 10:39:40 sntp[4771]: Started sntp
+2018-07-30 10:39:40.689104 (-0800) -0.0 +/- 10.017044 secs
+~ # date
+Mon Jul 30 10:39:51 CST 2018
+~ # iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   15.06    0.08    0.00   56.14
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.21         0.02         0.00          5          0 
+
+~ # free | grep Mem | awk '{print $2}'
+1024640
+~ # lspci | grep -c '003c'
+1
+~ # lspci | grep -c '0033'
+3
+~ # lspci | grep -c '002a'
+0
+~ # ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.508 ms
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.453 ms
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.395 ms
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.369 ms
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.387 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3996ms
+rtt min/avg/max/mdev = 0.369/0.422/0.508/0.054 ms
+~ # iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'
+
+
+
+
+[  3]  0.0-30.0 sec  1.11 GBytes    317 Mbits/sec
+~ # 
+~ # 
+~ # 
+~ # 
+~ # echo 3 >> /proc/sys/vm/drop_caches&
+~ # free -m
+             total         used         free       shared      buffers
+Mem:       1024640       258528       766112            0            0
+-/+ buffers:             258528       766112
+Swap:            0            0            0
+[2]+  Done                       echo 3 1>>/proc/sys/vm/drop_caches
+~ # cd /
+~ # echo $((`i2cget -y 1 0x4c 0` - 64))
+51
+~ # sntp -s 10.90.0.10 
+30 Jul 10:41:18 sntp[6374]: Started sntp
+2018-07-30 10:41:18.743550 (-0800) -0.0 +/- 10.018173 secs
+~ # date
+Mon Jul 30 10:41:29 CST 2018
+~ # iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          33.00    0.00   17.40    0.06    0.00   49.54
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.15         0.01         0.00          5          0 
+
+~ # free | grep Mem | awk '{print $2}'
+1024640
+~ # lspci | grep -c '003c'
+1
+~ # lspci | grep -c '0033'
+3
+~ # lspci | grep -c '002a'
+0
+~ # ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.624 ms
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.537 ms
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.465 ms
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.643 ms
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.509 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3996ms
+rtt min/avg/max/mdev = 0.465/0.555/0.643/0.072 ms
+~ # iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'
+
+
+
+
+[  3]  0.0-30.0 sec  1.78 GBytes    508 Mbits/sec
+~ # 
+~ # 
+~ # 
+~ # 
+~ # echo 3 >> /proc/sys/vm/drop_caches&
+~ # free -m
+             total         used         free       shared      buffers
+Mem:       1024640       258528       766112            0            0
+-/+ buffers:             258528       766112
+Swap:            0            0            0
+[2]+  Done                       echo 3 1>>/proc/sys/vm/drop_caches
+~ # cd /
+~ # echo $((`i2cget -y 1 0x4c 0` - 64))
+51
+~ # sntp -s 10.90.0.10 
+30 Jul 10:42:56 sntp[7528]: Started sntp
+2018-07-30 10:42:56.851617 (-0800) +0.0 +/- 10.019318 secs
+~ # date
+Mon Jul 30 10:43:07 CST 2018
+~ # iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          34.71    0.00   19.13    0.05    0.00   46.11
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.12         0.01         0.00          5          0 
+
+~ # free | grep Mem | awk '{print $2}'
+1024640
+~ # lspci | grep -c '003c'
+1
+~ # lspci | grep -c '0033'
+3
+~ # lspci | grep -c '002a'
+0
+~ # ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.449 ms
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.381 ms
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.423 ms
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.589 ms
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.548 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3997ms
+rtt min/avg/max/mdev = 0.381/0.478/0.589/0.078 ms
+~ # iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'
+
+
+
+
+[  3]  0.0-30.0 sec  1003 MBytes    281 Mbits/sec
+~ # 
+~ # 
+~ # 
+~ # 
+~ # echo 3 >> /proc/sys/vm/drop_caches&
+~ # free -m
+             total         used         free       shared      buffers
+Mem:       1024640       258336       766304            0            0
+-/+ buffers:             258336       766304
+Swap:            0            0            0
+[2]+  Done                       echo 3 1>>/proc/sys/vm/drop_caches
+~ # cd /
+~ # echo $((`i2cget -y 1 0x4c 0` - 64))
+51
+~ # sntp -s 10.90.0.10 
+30 Jul 10:44:34 sntp[8750]: Started sntp
+2018-07-30 10:44:34.972014 (-0800) -0.0 +/- 10.020447 secs
+~ # date
+Mon Jul 30 10:44:45 CST 2018
+~ # iostat -m
+Linux 2.6.32.27-Cavium-Octeon (localhost) 	01/00/00 	_mips64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          36.66    0.00   19.56    0.04    0.00   43.74
+
+Device:            tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn
+mtdblock0         0.00         0.00         0.00          0          0 
+mtdblock1         0.10         0.01         0.00          5          0 
+
+~ # free | grep Mem | awk '{print $2}'
+1024640
+~ # lspci | grep -c '003c'
+1
+~ # lspci | grep -c '0033'
+3
+~ # lspci | grep -c '002a'
+0
+~ # ping 10.90.0.10 -c5
+PING 10.90.0.10 (10.90.0.10) 56(84) bytes of data.
+64 bytes from 10.90.0.10: icmp_seq=1 ttl=64 time=0.444 ms
+64 bytes from 10.90.0.10: icmp_seq=2 ttl=64 time=0.629 ms
+64 bytes from 10.90.0.10: icmp_seq=3 ttl=64 time=0.460 ms
+64 bytes from 10.90.0.10: icmp_seq=4 ttl=64 time=0.626 ms
+64 bytes from 10.90.0.10: icmp_seq=5 ttl=64 time=0.397 ms
+
+--- 10.90.0.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 0.397/0.511/0.629/0.098 ms
+~ # iperf -c 10.90.0.10 -w1m -i1 -t30 | grep '0.0-3'
